@@ -4,11 +4,11 @@ import HeroImage from "../../../assets/pasta.jpg";
 
 const Herosection = () => {
   return (
-    <>
-      <div class="hero-section">
-        <img class="image" src={HeroImage} alt="food-item" />
+    <div className="homepage-hero">
+      <div className="hero-section">
+        <img className="image" src={HeroImage} alt="food-item" />
       </div>
-    </>
+    </div>
   );
 };
 
