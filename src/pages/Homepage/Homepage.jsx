@@ -1,16 +1,15 @@
 import React from "react";
-import { Navbar } from "../../components/Navbar/Navbar";
-import Categories from "./Categories/Categories";
-import Herosection from "./Herosection/Herosection";
-import { Trendingitem } from "./Trendingitem/Trendingitem";
-
+import { Navbar } from "../../components/indexComponent";
+import { Categories, Herosection, Trendingitem } from "./homeIndex";
 const Homepage = () => {
   return (
     <>
       <Navbar />
-      <Categories />
-      <Herosection />
-      <Trendingitem />
+      <div className="homepage">
+        <Categories />
+        <Herosection />
+        <Trendingitem />
+      </div>
     </>
   );
 };
