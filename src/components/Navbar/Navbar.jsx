@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import HamburgerMenu from "../../assets/FaSolidBars.svg";
 import Logo from "../../assets/logo.png";
@@ -14,9 +15,9 @@ const Navbar = () => {
             <div className="navbar-toggle-btn" id="toggleBtn">
               <img src={HamburgerMenu} alt="burger" />
             </div>
-            <a href="/">
+            <Link to="/">
               <img className="nav-logo" src={Logo} alt="logo" />
-            </a>
+            </Link>
           </div>
           <div className="navbar-items navbar-right">
             <ul className="navbar-links">
@@ -29,29 +30,28 @@ const Navbar = () => {
               </li>
               <li className="navbar-item">
                 <button className="btn btn-primary">
-                  <a className="nav-button" href="./pages/Login/login.html">
-                    {" "}
+                  <Link className="nav-button" to="/login">
                     Login
-                  </a>
+                  </Link>
                 </button>
               </li>
               <li className="navbar-item">
                 <div className="badge">
-                  <a href="./pages/Cart/cart.html">
+                  <Link to="/shoppingcart">
                     <img className="navbar-icon" src={CartIcon} alt="cart" />
-                  </a>
+                  </Link>
                   <span className="badge-count badge-quad">0</span>
                 </div>
               </li>
               <li className="navbar-item">
                 <div className="badge">
-                  <a href="./pages/Wishlist/wishlist.html">
+                  <Link to="/wishlist">
                     <img
                       className="navbar-icon"
                       src={WishlistIcon}
                       alt="wishlist"
                     />
-                  </a>
+                  </Link>
                   <span className="badge-count badge-quad">0</span>
                 </div>
               </li>
