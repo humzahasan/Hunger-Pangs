@@ -1,4 +1,5 @@
 import React from "react";
+import { useWishlist } from "../../../context/wishlistContext";
 import "./Trendingitem.css";
 import Pasta from "../../../assets/pasta.jpg";
 import Burger from "../../../assets/burger.jpg";
@@ -6,6 +7,7 @@ import Pizza from "../../../assets/pizza.png";
 import Pancake from "../../../assets/pancake.jpg";
 import Salad from "../../../assets/salad.jpg";
 import { Card } from "../../../components/Card/Card";
+
 const Trendingitem = () => {
   const trendingItemList = [
     { name: "Pizza", price: 220, productUrl: Pizza },
@@ -15,14 +17,9 @@ const Trendingitem = () => {
     { name: "Salad", price: 100, productUrl: Salad },
   ];
 
-  const addToCart = (item) => {
-    console.log("Add to cart", item);
-  };
+  const { dispatch } = useWishlist();
 
-  const addToWishlist = (item) => {
-    console.log("Add to wishlist", item);
-  };
-
+  const addToCart = (item) => {};
   return (
     <section className="homepage-trending">
       <h2>Trending Items</h2>
@@ -35,7 +32,9 @@ const Trendingitem = () => {
               subtitle={item.price}
               cardMediaUrl={item.productUrl}
               addToCartHandler={() => addToCart(item)}
-              addToWishlistHandler={() => addToWishlist(item)}
+              addToWishlistHandler={() =>
+                dispatch({ type: "ADD_TO_WISHLIST", payload: item })
+              }
             />
           );
         })}
@@ -44,4 +43,4 @@ const Trendingitem = () => {
   );
 };
 
-export { Trendingitem };
+export default Trendingitem;
