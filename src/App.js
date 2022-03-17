@@ -1,8 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Homepage } from "./pages/Homepage/Homepage";
-import { Wishlist } from "./pages/Wishlist/Wishlist";
-
+import { Homepage, Wishlist } from "./pages/indexPages";
 function App() {
   return (
     <div className="app">
