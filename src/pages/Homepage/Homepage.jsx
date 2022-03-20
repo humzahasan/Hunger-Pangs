@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../components/indexComponent";
+import { Navbar } from "../../components/index-component";
 import { Categories, Herosection, Trendingitem } from "./homeIndex";
 const Homepage = () => {
   return (

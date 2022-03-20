@@ -1,5 +1,5 @@
 import React from "react";
-import { useWishlist } from "../../../context/wishlistContext";
+import { useWishlist } from "../../../context/wishlist-context";
 import "./Trendingitem.css";
 import Pasta from "../../../assets/pasta.jpg";
 import Burger from "../../../assets/burger.jpg";

@@ -6,7 +6,7 @@ import Logo from "../../assets/logo.png";
 import CartIcon from "../../assets/shopping-cart.svg";
 import WishlistIcon from "../../assets/heart.svg";
 
-import { useWishlist } from "../../context/wishlistContext";
+import { useWishlist } from "../../context/wishlist-context";
 
 const Navbar = () => {
   const { state } = useWishlist();
@@ -42,7 +42,7 @@ const Navbar = () => {
               </li>
               <li className="navbar-item">
                 <div className="badge">
-                  <Link to="/shoppingcart">
+                  <Link to="/cart">
                     <img className="navbar-icon" src={CartIcon} alt="cart" />
                   </Link>
                   <span className="badge-count badge-quad">0</span>
