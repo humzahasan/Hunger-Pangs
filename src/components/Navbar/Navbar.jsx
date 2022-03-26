@@ -6,7 +6,12 @@ import Logo from "../../assets/logo.png";
 import CartIcon from "../../assets/shopping-cart.svg";
 import WishlistIcon from "../../assets/heart.svg";
 
+import { useWishlist } from "../../context/wishlistContext";
+
 const Navbar = () => {
+  const { state } = useWishlist();
+  const wishlistLength = state.itemInWishList.length;
+
   return (
     <>
       <header className="navbar-header">
@@ -52,7 +57,9 @@ const Navbar = () => {
                       alt="wishlist"
                     />
                   </Link>
-                  <span className="badge-count badge-quad">0</span>
+                  <span className="badge-count badge-quad">
+                    {wishlistLength}
+                  </span>
                 </div>
               </li>
             </ul>

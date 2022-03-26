@@ -15,6 +15,7 @@ const Card = ({
   addToCartHandler,
   moveToCartHandler,
   moveToWishlistHandler,
+  removefromWishlistHandler,
   dismisable,
   imageOverlay,
 }) => {
@@ -94,6 +95,11 @@ const Card = ({
           {moveToCartHandler && (
             <button className="btn btn-primary">
               <p onClick={moveToCartHandler}> Move to Cart</p>
+            </button>
+          )}
+          {removefromWishlistHandler && (
+            <button className="btn btn-secondary">
+              <p onClick={removefromWishlistHandler}> Remove from Wishlist</p>
             </button>
           )}
         </div>
