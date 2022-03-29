@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import CloseBtn from "../../assets/close.svg";
+
 const Card = ({
   orientation = "vertical",
   size = "",
@@ -11,14 +12,20 @@ const Card = ({
   badgeIconUrl,
   badgeContent,
   content,
-  addToWishlistHandler,
-  addToCartHandler,
-  moveToCartHandler,
-  moveToWishlistHandler,
-  removefromWishlistHandler,
+  showQuantity,
+  quantity,
+  changeQuantity,
+  addToWishlist,
+  addToCart,
+  moveToCart,
+  moveToWishlist,
+  removeFromWishlist,
+  removeFromCart,
   dismisable,
   imageOverlay,
 }) => {
+  const count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   return (
     <div
       className={
@@ -30,7 +37,7 @@ const Card = ({
       }
     >
       {dismisable && (
-        <div className="card-dismisable">
+        <div className="card-dismisable" onClick={dismisable}>
           <img src={CloseBtn} alt="close-button" />
         </div>
       )}
@@ -68,38 +75,77 @@ const Card = ({
       {(title || subtitle || content) && (
         <div className="card-text">
           <p className="card-title">{title}</p>
-          <p className="card-subtitle">{subtitle}</p>
+          <p className="card-subtitle">Rs.{subtitle}</p>
           <p className="card-content">{content}</p>
+          {showQuantity && (
+            <div>
+              <label htmlFor="product-quantity">Quantity: </label>
+              <select
+                name="product-quantity"
+                id="product-quantity"
+                value={quantity}
+                onChange={changeQuantity}
+              >
+                {count.map((value, index) => {
+                  return (
+                    <option key={value} value={value}>
+                      {value}
+                    </option>
+                  );
+                })}
+              </select>
+            </div>
+          )}
         </div>
       )}
-      {(addToCartHandler ||
-        moveToWishlistHandler ||
-        moveToCartHandler ||
-        addToWishlistHandler) && (
+
+      {(addToCart ||
+        moveToWishlist ||
+        moveToCart ||
+        addToWishlist ||
+        removeFromCart ||
+        removeFromWishlist) && (
         <div className="card-action-column">
-          {addToCartHandler && (
-            <button onClick={addToCartHandler} className="btn btn-primary">
+          {addToCart && (
+            <button onClick={addToCart} className="btn btn-primary">
               Add to cart
             </button>
           )}
-          {addToWishlistHandler && (
-            <button className="btn btn-outline btn-primary">
-              <p onClick={addToWishlistHandler}> Add to wishlist</p>
+          {addToWishlist && (
+            <button
+              className="btn btn-outline btn-primary"
+              onClick={addToWishlist}
+            >
+              Add to wishlist
             </button>
           )}
-          {moveToWishlistHandler && (
-            <button className="btn btn-outline btn-primary">
-              <p onClick={moveToWishlistHandler}> Move to wishlist</p>
+          {moveToWishlist && (
+            <button
+              className="btn btn-outline btn-primary"
+              onClick={moveToWishlist}
+            >
+              Move to wishlist
             </button>
           )}
-          {moveToCartHandler && (
-            <button className="btn btn-primary">
-              <p onClick={moveToCartHandler}> Move to Cart</p>
+          {moveToCart && (
+            <button className="btn btn-primary" onClick={moveToCart}>
+              Move to Cart
             </button>
           )}
-          {removefromWishlistHandler && (
-            <button className="btn btn-secondary">
-              <p onClick={removefromWishlistHandler}> Remove from Wishlist</p>
+          {removeFromWishlist && (
+            <button
+              className="btn btn-outline btn-primary"
+              onClick={removeFromWishlist}
+            >
+              Remove from Wishlist
+            </button>
+          )}
+          {removeFromCart && (
+            <button
+              className="btn btn-outline btn-primary"
+              onClick={removeFromCart}
+            >
+              Remove from Cart
             </button>
           )}
         </div>

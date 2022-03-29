@@ -1,34 +1,61 @@
 import React from "react";
-import { useWishlist } from "../../context/wishlistContext";
-import { Card, Navbar } from "../../components/indexComponent";
+import "./Wishlist.css";
+import FavIcon from "../../assets/heart.svg";
+import { Card, Navbar } from "../../components/index-component";
+import { useWishlist } from "../../context/wishlist-context";
+import { useCart } from "../../context/cart-context";
 const Wishlist = () => {
   const { state } = useWishlist();
   const { itemInWishList } = state;
-  const moveToCart = () => {};
 
-  const { dispatch } = useWishlist();
+  const { dispatch: wishlistDispatch } = useWishlist();
+  const { dispatch: cartDispatch } = useCart();
 
   return (
     <>
       <Navbar />
-      <div className="wishlist">
-        <h2>Item in wishlist</h2>
-        {itemInWishList.map((item) => (
-          <Card
-            key={item.name}
-            title={item.name}
-            cardMediaUrl={item.productUrl}
-            subtitle={item.price}
-            moveToCartHandler={() => moveToCart()}
-            removefromWishlistHandler={() =>
-              dispatch({
-                type: "REMOVE_FROM_WISHLIST",
-                payload: item,
-              })
-            }
-          />
-        ))}
-      </div>
+
+      <main className="wishlist-container flex-center-column">
+        {itemInWishList.length > 0 ? (
+          <>
+            <h1 className="md-title">Your Wishlist</h1>
+            <div className="flex-center-row flex-wrap">
+              {itemInWishList.map((item) => (
+                <Card
+                  key={item.id}
+                  dismisable={() =>
+                    wishlistDispatch({
+                      type: "REMOVE_FROM_WISHLIST",
+                      payload: item,
+                    })
+                  }
+                  badgeIconUrl={FavIcon}
+                  cardMediaUrl={item.productUrl}
+                  imageOverlay={item.name}
+                  moveToCart={() => {
+                    cartDispatch({
+                      type: "ADD_TO_CART",
+                      payload: item,
+                    });
+                  }}
+                  removeFromWishlist={() => {
+                    wishlistDispatch({
+                      type: "REMOVE_FROM_WISHLIST",
+                      payload: item,
+                    });
+                  }}
+                  title={item.name}
+                  subtitle={item.price}
+                />
+              ))}
+            </div>
+          </>
+        ) : (
+          <h1 className="md-title">
+            You haven't added your favourite foods yet!
+          </h1>
+        )}
+      </main>
     </>
   );
 };

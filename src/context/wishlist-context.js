@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer } from "react";
-import { wishlistReducer } from "../reducers/wishlistReducer";
+import { wishlistReducer } from "../reducers/wishlist-reducer";
 
-const defaultContextValue = { wishlist: { itemInWishlist: 5 } };
+const defaultContextValue = { itemInWishlist: [] };
 
 const WishlistContext = createContext(defaultContextValue);
 
