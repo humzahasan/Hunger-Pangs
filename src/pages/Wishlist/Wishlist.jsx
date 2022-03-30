@@ -1,6 +1,5 @@
 import React from "react";
 import "./Wishlist.css";
-import FavIcon from "../../assets/heart.svg";
 import { Card, Navbar } from "../../components/index-component";
 import { useWishlist } from "../../context/wishlist-context";
 import { useCart } from "../../context/cart-context";
