@@ -29,7 +29,6 @@ const Wishlist = () => {
                       payload: item,
                     })
                   }
-                  badgeIconUrl={FavIcon}
                   cardMediaUrl={item.productUrl}
                   imageOverlay={item.name}
                   moveToCart={() => {

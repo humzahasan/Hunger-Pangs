@@ -23,6 +23,8 @@ const Card = ({
   removeFromCart,
   dismisable,
   imageOverlay,
+  outOfStock,
+  badgeAction,
 }) => {
   const count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -44,7 +46,7 @@ const Card = ({
       {(badgeIconUrl || badgeContent) && (
         <div className="card-badge">
           {badgeIconUrl && (
-            <p className="card-badge-icon">
+            <p className="card-badge-icon" onClick={badgeAction}>
               <img
                 className="wishlist-icon"
                 src={badgeIconUrl}
@@ -70,11 +72,16 @@ const Card = ({
           {imageOverlay && (
             <p className="card-img-overlay overlay-hover">{imageOverlay}</p>
           )}
+          {outOfStock && (
+            <p className="card-img-overlay overlay-always">OUT OF STOCK</p>
+          )}
         </div>
       )}
       {(title || subtitle || content) && (
         <div className="card-text">
-          <p className="card-title">{title}</p>
+          <p className="card-title" title={title}>
+            {title.length > 20 ? title.substring(0, 19).concat("..") : title}
+          </p>
           <p className="card-subtitle">Rs.{subtitle}</p>
           <p className="card-content">{content}</p>
           {showQuantity && (
@@ -104,13 +111,24 @@ const Card = ({
         moveToCart ||
         addToWishlist ||
         removeFromCart ||
-        removeFromWishlist) && (
+        removeFromWishlist ||
+        outOfStock) && (
         <div className="card-action-column">
-          {addToCart && (
-            <button onClick={addToCart} className="btn btn-primary">
-              Add to cart
-            </button>
-          )}
+          {addToCart &&
+            (outOfStock ? (
+              <button
+                title="Out Of Stock"
+                onClick={addToCart}
+                className="btn btn-disabled btn-outline btn-primary"
+              >
+                Add to cart
+              </button>
+            ) : (
+              <button onClick={addToCart} className="btn btn-primary">
+                Add to cart
+              </button>
+            ))}
+
           {addToWishlist && (
             <button
               className="btn btn-outline btn-primary"

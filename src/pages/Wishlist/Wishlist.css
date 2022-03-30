@@ -2,9 +2,14 @@ main {
   padding: 1rem;
   margin: 4rem;
 }
-
+/* 
 .wishlist-icon,
 .wishlist-icon:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+    brightness(104%) contrast(97%);
+} */
+
+.wishlist-icon:hover {
   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
     brightness(104%) contrast(97%);
 }
