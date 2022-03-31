@@ -1,11 +1,25 @@
 .hero-section {
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.hero-section > .image {
-  max-width: 40rem;
-  opacity: 0.2;
+.image {
+  width: 50%;
+  opacity: 0.5;
+}
+
+.image:hover {
+  opacity: 0.4;
+}
+
+.btn-hero {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.btn-hero:hover {
+  opacity: 1;
 }

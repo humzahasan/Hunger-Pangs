@@ -1,9 +1,4 @@
 import "./Categories.css";
-import Pasta from "../../../assets/pasta.jpg";
-import Burger from "../../../assets/burger.jpg";
-import Pizza from "../../../assets/pizza.png";
-import Pancake from "../../../assets/pancake.jpg";
-import Salad from "../../../assets/salad.jpg";
 import { Card } from "../../../components/Card/Card";
 
 const Categories = () => {
@@ -11,11 +6,36 @@ const Categories = () => {
     <article className="catergories">
       <h2>Top Categories</h2>
       <section className="catergories-list">
-        <Card cardMediaUrl={Pasta} imageOverlay={"PASTA"} />
-        <Card cardMediaUrl={Burger} imageOverlay={"BURGER"} />
-        <Card cardMediaUrl={Pizza} imageOverlay={"PIZZA"} />
-        <Card cardMediaUrl={Pancake} imageOverlay={"PANCAKE"} />
-        <Card cardMediaUrl={Salad} imageOverlay={"SALAD"} />
+        <Card
+          cardMediaUrl={
+            "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fyoumaj78lmqeg7mmbzn"
+          }
+          imageOverlay={"ICE CREAM"}
+        />
+        <Card
+          cardMediaUrl={
+            "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pltx770rrkcghlzx4zwb"
+          }
+          imageOverlay={"BURGER"}
+        />
+        <Card
+          cardMediaUrl={
+            "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/usgs3ew8xsul9chz8z21"
+          }
+          imageOverlay={"MOMO"}
+        />
+        <Card
+          cardMediaUrl={
+            "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/rksu3hnjwxwormnosuhr"
+          }
+          imageOverlay={"BIRYANI"}
+        />
+        <Card
+          cardMediaUrl={
+            "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hvf5qxnb7i4llownf0p7"
+          }
+          imageOverlay={"NORTH INDIAN"}
+        />
       </section>
     </article>
   );
