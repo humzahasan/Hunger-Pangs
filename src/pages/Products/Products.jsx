@@ -1,7 +1,7 @@
 import React from "react";
 import "./Products.css";
 
-import { Navbar } from "../../components/index-component";
+import { Navbar } from "../../components/index";
 import { ProductFilter } from "./ProductsFilter/ProductFilter";
 import { ProductsListing } from "./ProductsListing/ProductsListing";
 

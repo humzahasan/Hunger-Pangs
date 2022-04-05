@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Cart.css";
-import { Card, Navbar } from "../../components/index-component";
+import { Card, Navbar } from "../../components/index";
 import { useCart } from "../../context/cart-context";
 import { useWishlist } from "../../context/wishlist-context";
 const Cart = () => {
