@@ -20,7 +20,7 @@ const WishlistProvider = ({ children }) => {
   const [state, dispatch] = useReducer(wishlistReducer, { wishlist });
 
   useEffect(() => {
-    getWishlist();
+    encodedToken && getWishlist();
   }, []);
 
   const getWishlist = async () => {
