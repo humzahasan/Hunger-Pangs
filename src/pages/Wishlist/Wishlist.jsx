@@ -1,6 +1,6 @@
 import React from "react";
 import "./Wishlist.css";
-import { Card, Navbar } from "../../components/index-component";
+import { Card, Navbar } from "../../components/index";
 import { useWishlist } from "../../context/wishlist-context";
 import { useCart } from "../../context/cart-context";
 const Wishlist = () => {
