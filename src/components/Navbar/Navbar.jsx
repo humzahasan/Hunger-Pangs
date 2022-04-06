@@ -15,7 +15,7 @@ const Navbar = () => {
   const { state: cartState } = useCart();
   const { user, setUser } = useAuth();
 
-  const wishlistLength = wishlistState.itemInWishList.length;
+  const wishlistLength = wishlistState.wishlist.length;
   const cartLength = cartState.cart.length;
 
   const logoutHandler = () => {

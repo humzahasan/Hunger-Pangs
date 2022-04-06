@@ -1,17 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import FavIcon from "../../../assets/heart.svg";
-import { Card } from "../../../components/index-component";
+import { Card } from "../../../components";
 
-import {
-  useCart,
-  useProducts,
-  useWishlist,
-} from "../../../context/index-context";
+import { useAuth, useCart, useProducts, useWishlist } from "../../../context";
 
 const ProductsListing = () => {
   const { products } = useProducts();
-  const { dispatch: wishlistDispatch } = useWishlist();
-  const { dispatch: cartDispatch } = useCart();
+  const { addToWishlist } = useWishlist();
+  const { addToCart } = useCart();
+  const { user } = useAuth();
+  const navigate = useNavigate();
+
   console.log(products);
   return (
     <div className="grid-item ">
@@ -27,11 +27,11 @@ const ProductsListing = () => {
               cardMediaUrl={item.productUrl}
               badgeIconUrl={FavIcon}
               badgeAction={() => {
-                wishlistDispatch({ type: "ADD_TO_WISHLIST", payload: item });
+                user ? addToWishlist(item) : navigate("/login");
               }}
               addToCart={() =>
                 !item.outOfStock &&
-                cartDispatch({ type: "ADD_TO_CART", payload: item })
+                (user ? addToCart(item) : navigate("/login"))
               }
             />
           ))}
