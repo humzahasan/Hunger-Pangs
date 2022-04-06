@@ -8,13 +8,21 @@ import WishlistIcon from "../../assets/heart.svg";
 
 import { useWishlist } from "../../context/wishlist-context";
 import { useCart } from "../../context/cart-context";
+import { useAuth } from "../../context/auth.context";
 
 const Navbar = () => {
   const { state: wishlistState } = useWishlist();
   const { state: cartState } = useCart();
-  const wishlistLength = wishlistState.itemInWishList.length;
-  const cartLength = cartState.itemInCart.length;
+  const { user, setUser } = useAuth();
 
+  const wishlistLength = wishlistState.itemInWishList.length;
+  const cartLength = cartState.cart.length;
+
+  const logoutHandler = () => {
+    console.info("User Logged out!");
+    localStorage.removeItem("token");
+    setUser(null);
+  };
   return (
     <>
       <header className="navbar-header">
@@ -37,11 +45,17 @@ const Navbar = () => {
                 />
               </li>
               <li className="navbar-item">
-                <button className="btn btn-primary">
-                  <Link className="nav-button" to="/login">
-                    Login
-                  </Link>
-                </button>
+                {!user ? (
+                  <button className="btn btn-primary">
+                    <Link className="nav-button" to="/login">
+                      Login
+                    </Link>
+                  </button>
+                ) : (
+                  <button className="btn btn-primary" onClick={logoutHandler}>
+                    <p className="nav-button">Logout</p>
+                  </button>
+                )}
               </li>
               <li className="navbar-item">
                 <div className="badge">

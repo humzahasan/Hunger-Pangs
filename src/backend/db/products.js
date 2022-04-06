@@ -10,7 +10,7 @@ export const products = [
     price: "605",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/z6fgdww4ehfmnlehobmt",
-    category: "wow-momo",
+    category: "combo",
     desc: "Steamed, Fried & Pan Fried Darjeeling Veg Momo [3 plates, 15 Pieces]  with Veggie Moburg [3 Pieces] and Pepsi [500 ml]",
     trending: true,
     outOfStock: true,
@@ -22,7 +22,7 @@ export const products = [
     price: "260",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/o2knpvsxohodprxrulmd",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Slurp away the BR signature Splish Splash ice cream thickshake. Garnished with whipped cream and coloured sprinkles. Are you drooling already ?",
     trending: true,
     outOfStock: false,
@@ -34,7 +34,7 @@ export const products = [
     price: "541.53",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wcuffm3lzap60tjnlzbo",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A 4 decker cake made with alternate layers of super moist vanilla sponge cake and succulent pineapple ice cream. Garnished with white chocolate and whipped cream swirls. Pineapple cakes never run out of fashion!",
     trending: true,
     outOfStock: false,
@@ -46,7 +46,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nduu52npki3u5kams0jk",
-    category: "tandoori-momo",
+    category: "momo",
     desc: "It is Chicken Tandoori Momo filled with chicken tikka, green capsicum, red & yellow bell pepper and Indian spices.",
     trending: false,
     outOfStock: false,
@@ -95,7 +95,7 @@ export const products = [
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tay5m7eetltn56xnuuez",
     category: "extra",
-    desc: "Delicisious mayonnaise sauce goes well with Momos and Moburg,",
+    desc: "Delicisious mayonnaise sauce goes well with Momo and Moburg,",
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
@@ -106,7 +106,7 @@ export const products = [
     price: "949",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/u8eoiqzjnjx6o8eqemuj",
-    category: "biryani-combos",
+    category: "biryani",
     desc: "[Classic Recipe served with Gulab Jamun & Raita] (Lazeez Bhuna Biryani + Murgh Tikka Biryani + Afghani Tikka Biryani) The perfect royal combo for every chicken lover! Succulent pieces of chicken cooked with golden-hued, long-grain basmati rice and fragrant exotic spices give you a truly royal experience.",
     trending: false,
     outOfStock: true,
@@ -118,7 +118,7 @@ export const products = [
     price: "859",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bwfguuyopkvyryzoszyd",
-    category: "biryani-combos",
+    category: "biryani",
     desc: "[Classic Recipe served with Gulab Jamun & Raita] (Zaikedaar Paneer Biryani + Subz Biryani + Paneer Subz Biryani) Experience the best of our Veg biryanis brimming with the tender pieces of paneer, fresh vegetables and golden-hued basmati rice.",
     trending: false,
     outOfStock: true,
@@ -167,7 +167,7 @@ export const products = [
     price: "1299",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d5jzp2vfqq0uaurepsol",
-    category: "alishaan-biryani-(serves-4)",
+    category: "biryani",
     desc: "[Boneless, Served with 6 Gulab Jamuns & Mint Raita] Legendary for its rich taste & creamy texture, tender chicken marinated in fresh creamy yoghurt & spices is layered with aromatic basmati. Let your tastebuds feel enchanted.",
     trending: true,
     outOfStock: false,
@@ -179,7 +179,7 @@ export const products = [
     price: "199",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/u1nxnwz3c2ng2pqye1kn",
-    category: "2022-feast-up-combos",
+    category: "combo",
     desc: "1 Plate Chicken Chilli Momo + 1  Chicken Moburg [Meal for 1]",
     trending: false,
     outOfStock: true,
@@ -215,7 +215,7 @@ export const products = [
     price: "388",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/k0ttvz0nyuzzgqcixqyz",
-    category: "king-deals-(-save-rs-74)",
+    category: "combo",
     desc: "Save Rs. 74 | Cheese Meltdown Burger+ Med Fries + Med Pepsi + Chocolava cup",
     trending: true,
     outOfStock: true,
@@ -251,7 +251,7 @@ export const products = [
     price: "949",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wfiomkojsnj8agzp4vet",
-    category: "alishaan-biryani-(serves-4)",
+    category: "biryani",
     desc: "[Served with 6 Gulab Jamuns & Mint Raita] Adorned with fresh vegetables, golden-hued long-grain basmati, & the coveted Behrouz spice mix, this dish will lend you an experience unlike any other.",
     trending: false,
     outOfStock: true,
@@ -263,7 +263,7 @@ export const products = [
     price: "195",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/usgs3ew8xsul9chz8z21",
-    category: "chilli-momos-(new-launch)",
+    category: "momo",
     desc: "Veggie kothey roasted and mixed with pahari Seasoning to experience a Wow! Hilly touch.",
     trending: true,
     outOfStock: true,
@@ -287,7 +287,7 @@ export const products = [
     price: "1399",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/iubrbgzngfmsyhuewnoa",
-    category: "alishaan-biryani-(serves-4)",
+    category: "biryani",
     desc: "[Served with 6 Gulab Jamuns & Mint Raita] Enriched with gentle flavours of curd and subtly spiced with cumin and ginger, these tender Malai Koftas are layered with basmati rice and slow-cooked to perfection making this a must-try extravagant meal",
     trending: false,
     outOfStock: false,
@@ -305,25 +305,14 @@ export const products = [
     outOfStock: false,
     tenMinutesDelivery: false,
   },
-  {
-    id: "4c9188ea-2036-4e78-be8c-9909319af8f1",
-    name: "Wok Veggie Regular",
-    price: "149.02",
-    productUrl:
-      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d0nskj51wazrqte9a8sc",
-    category: "wok",
-    desc: "",
-    trending: false,
-    outOfStock: true,
-    tenMinutesDelivery: false,
-  },
+
   {
     id: "6b879549-2e78-4375-b6b6-d959e1845c03",
     name: "Bavarian Chocolate Ice cream",
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fyoumaj78lmqeg7mmbzn",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Rich chocolate based ice cream adorned with chocolate pieces and cashew nut crispies. If it?s Bavarian Chocolate flavour then it has got to be sinful and intensely indulgent. Throw in a bit of crunch and you?ve got a truly divine chocolate ice cream treat.",
     trending: false,
     outOfStock: false,
@@ -347,7 +336,7 @@ export const products = [
     price: "317",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/iacrlvuvrubftsjrzrog",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 |Too Hot to Handle. Our Spicy & Crunchy Chicken Patty topped with crispy lettuce, juicy tomatoes(seasonal) and creamy sauce with our unique corn dust buns. An indulgent treat from our King's Collection!Comes with Fries (M) + Pepsi (M)",
     trending: false,
     outOfStock: true,
@@ -359,7 +348,7 @@ export const products = [
     price: "287",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mbvxr2nrwsdgrtsyicym",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 |Desiness Alert! Flame grilled Tandoori Chicken, mint sauce with fresh onion  with our unique corn dust buns. An indulgent treat from our King's Collection! Comes with Fries (M) + Pepsi (M)",
     trending: false,
     outOfStock: true,
@@ -395,7 +384,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hxf6ubwgrxj8xfwfflhl",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round",
     trending: true,
     outOfStock: true,
@@ -407,7 +396,7 @@ export const products = [
     price: "319",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/rksu3hnjwxwormnosuhr",
-    category: "shahi-biryani-(serves-1)",
+    category: "biryani",
     desc: "[Served with 1 Gulab Jamun & Mint Raita] In this extravagant dish, soft & crumbly, fresh paneer is marinated with exquisite royal spices & layered with basmati to create a dish that is as delectable as it is extravagant.",
     trending: true,
     outOfStock: true,
@@ -443,7 +432,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hamy8zrytxhfcsuksdmu",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round.",
     trending: false,
     outOfStock: false,
@@ -467,7 +456,7 @@ export const products = [
     price: "200",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xxskjmzzdjfsrg7hdhg4",
-    category: "what's-new",
+    category: "trending",
     desc: "1 Fries + 2 Boneless Wings + 1 Fiery Hell Dip  +1  Easy cheesy Dip",
     trending: true,
     outOfStock: true,
@@ -479,7 +468,7 @@ export const products = [
     price: "449",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zzefm2yrwaxdocgpbx1a",
-    category: "make-your-royal-feast",
+    category: "combo",
     desc: "(Serves 1) Treat your tastebuds to this royal yet classic indulgence. Choose from your favourite Chicken Biryani and Chicken Kebab and save up to Rs 150",
     trending: false,
     outOfStock: true,
@@ -491,7 +480,7 @@ export const products = [
     price: "318",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hnqdtvnjlejxfhtp1mxh",
-    category: "king-deals-(-save-rs-74)",
+    category: "combo",
     desc: "Save Rs.74 | Classic Veg Burger + Med Fries + Med Pepsi + Chocolava cup",
     trending: false,
     outOfStock: true,
@@ -515,7 +504,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tmbgqdf2bqdzamya2vam",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "An ice cream that tells the mint and chocolate love story like no other. This classic ice cream is a marriage of Mint and Milk Chocolate pieces.",
     trending: true,
     outOfStock: false,
@@ -527,7 +516,7 @@ export const products = [
     price: "386",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ftrpon30vmbqfaduatil",
-    category: "burger-king",
+    category: "combo",
     desc: "2 Lite Whopper Jr Veg + 1 King Fries + 1 Veggie strips",
     trending: true,
     outOfStock: false,
@@ -539,7 +528,7 @@ export const products = [
     price: "645",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/snjknci70k8szusqoipl",
-    category: "wow-momo",
+    category: "combo",
     desc: "Steamed, Fried & Pan Fried Darjeeling Chicken Momo [3 plates, 15 Pieces]  with Moburg Chicken [3 Pieces] and Pepsi [500 ml]",
     trending: false,
     outOfStock: true,
@@ -551,7 +540,7 @@ export const products = [
     price: "317",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/rpdocwd3y7acnoelvwtc",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 |A patty with paneer sandiwched with masala, veggies and creamy sauce. An indulgent treat from our King's Collection!Comes with Fries (M) + Pepsi (M)",
     trending: false,
     outOfStock: false,
@@ -563,7 +552,7 @@ export const products = [
     price: "175",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/szzmmvlswvggshmjguqy",
-    category: "fried-momo",
+    category: "momo",
     desc: "Filled with juicy chicken and mixed with the flavours of Indian masala and comes with the mouth watering schezwan flavour. To make it crispy dipped in hot oil and served with red and green sauce.",
     trending: true,
     outOfStock: false,
@@ -587,8 +576,8 @@ export const products = [
     price: "189",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kdrudusblxaxum9tdmnh",
-    category: "butter-momo",
-    desc: "Baked Paneer Momos tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
+    category: "momo",
+    desc: "Baked Paneer Momo tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
@@ -611,7 +600,7 @@ export const products = [
     price: "477",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zzhwsbk9prlm99w3js5c",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "",
     trending: false,
     outOfStock: true,
@@ -635,7 +624,7 @@ export const products = [
     price: "339",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xvnhfsvknf9g2xval0ef",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Praline coated Almonds peeping out of Dark Chocolate ice cream (Contains milk & tree nuts (Almond)",
     trending: true,
     outOfStock: false,
@@ -647,7 +636,7 @@ export const products = [
     price: "297",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ngxoifmg4rrcfgu597d7",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 |Our Big Burger with Flame Grilled smoky chicken patty & loads of sauces makes it a grill treat. Comes with Fries (M) + Pepsi (M)",
     trending: true,
     outOfStock: true,
@@ -659,7 +648,7 @@ export const products = [
     price: "566.95",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wt0bz4gjpmexoqdjg1i6",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A divine combo of soft red velvet?cake?intertwined with creamy Cookies n Cream ice cream topped with cookies and Red velvet?cake?crumble.?",
     trending: false,
     outOfStock: true,
@@ -683,7 +672,7 @@ export const products = [
     price: "104",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ypgg0mgefnuczpylx3sm",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Ever imagined all the delicious flavours of a sundae coming together in a single scoop? We just made it possible!? Sit back and enjoy a scrumptious sundae at the comfort of your home.",
     trending: false,
     outOfStock: false,
@@ -695,7 +684,7 @@ export const products = [
     price: "437",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hqmgyqhdglqeeokunste",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: 'Save Rs 45 |Make room for our fully loaded Whopper with a juicy, flame-grilled  Patty, tangy pickles, fresh veggies, mayo and ketchup served in fresh 5" buns. Comes with Fries (M) + Pepsi (M)',
     trending: true,
     outOfStock: true,
@@ -707,7 +696,7 @@ export const products = [
     price: "651.69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cgstmibuowbrmqtcg4hd",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Smooth, creamy Dutch chocolate ice cream with Kit-Kat bits spread generously on top of a luscious chocolate sponge cake, and topped with crunchy Kit-Kat wafer biscuits and chocolate balls.",
     trending: true,
     outOfStock: false,
@@ -755,7 +744,7 @@ export const products = [
     price: "109",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nsm44tzuxpceproaymyr",
-    category: "what's-new",
+    category: "trending",
     desc: "Melty Chocolate filled in cupcake",
     trending: true,
     outOfStock: false,
@@ -779,7 +768,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ybgg7x946wgccj182y5l",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Sublime Strawberry ice cream with real strawberry pieces. This Strawberry ice cream is a childhood favourite. Scrap that actually, it?s an all time favourite! (Contains Milk)",
     trending: true,
     outOfStock: false,
@@ -815,7 +804,7 @@ export const products = [
     price: "198",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/blnwk49uenvm2aozpnzh",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 | Freshly made egg patty burger. Comes with Fries (M) + Pepsi (M)",
     trending: false,
     outOfStock: true,
@@ -851,7 +840,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/dpuuait9bdtxtyod0f1u",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "The infamous decadent BR chocolate ice cream adorned with caramelized cashew crunch. Will definitely leave you asking for more.",
     trending: false,
     outOfStock: true,
@@ -875,7 +864,7 @@ export const products = [
     price: "83",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tdykp0kyi76f5s72ydyo",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Vanilla ice cream with caramel ribbon&almond praline. Weve put together 2classics flavours with caramel ribbon stitching them together. This Almond Praline Gold proves sometime old is truly gold!",
     trending: true,
     outOfStock: false,
@@ -899,8 +888,8 @@ export const products = [
     price: "249",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/afwvvik6exit1izdcise",
-    category: "butter-momo",
-    desc: "Baked Chicken Cheese Momos tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
+    category: "momo",
+    desc: "Baked Chicken Cheese Momo tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
@@ -912,7 +901,7 @@ export const products = [
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/lxpgtvly0fmasrwawup2",
     category: "steam-momo",
-    desc: "Delicious momos stuffed with freshly chopped Veggies (carrot, cabbage, beans & Coriander), Paneer, tinch of spices and mixed with Indian Masala (5 Pcs).  Served with Spicy Red Sauce and Green Chutney.",
+    desc: "Delicious momo stuffed with freshly chopped Veggies (carrot, cabbage, beans & Coriander), Paneer, tinch of spices and mixed with Indian Masala (5 Pcs).  Served with Spicy Red Sauce and Green Chutney.",
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
@@ -983,7 +972,7 @@ export const products = [
     price: "288.14",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qj4bnj8r0h2i6dms1eps",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Vanilla ice cream with caramel ribbon and almond praline. We?ve put together two classics flavours with a caramel ribbon stitching them together. This Almond Praline Gold proves that sometime old is truly gold! \n(Contains milk & tree nuts)",
     trending: true,
     outOfStock: false,
@@ -995,7 +984,7 @@ export const products = [
     price: "299",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fyscfxwpdnzvepdgrjsq",
-    category: "king-deals-(-save-rs-74)",
+    category: "combo",
     desc: "Save Rs.74 | Crispy Chicken Burger + Med Fries + Med Pepsi + Chocolava cup",
     trending: false,
     outOfStock: false,
@@ -1007,7 +996,7 @@ export const products = [
     price: "677.12",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/crgbh7dkkcvxbyi1m7zb",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Want to give chocolate a miss? Then, try this! Luscious Biscoff ice cream generously spread over a bed of handmade Biscoff biscuit crust and rich vanilla sponge cake. Perfected with a delightfully golden brown caramel sauce and Lotus biscuit. Extraordinary!",
     trending: false,
     outOfStock: false,
@@ -1019,7 +1008,7 @@ export const products = [
     price: "389",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ttnegcog4vc1anxrnogi",
-    category: "shahi-biryani-(serves-1)",
+    category: "biryani",
     desc: "[Boneless, Served with 1 Gulab Jamun & Mint Raita] A potpourri of extravagant flavours, tender chicken spiced with freshly ground Behrouz masala is charcoal-grilled then layered with fragrant basmati & dum-pukht in its full glory.",
     trending: false,
     outOfStock: true,
@@ -1055,7 +1044,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/m4jaszw0jblhsdjhbfig",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round.",
     trending: true,
     outOfStock: false,
@@ -1067,7 +1056,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ewjfgdxyd5omyneabakg",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "",
     trending: true,
     outOfStock: false,
@@ -1079,7 +1068,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xmixb9ukejfka42lrrhb",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Bestseller BR Dutch chocolate recipe made with exquisite Hershey’s cocoa and married with our signature chocolate ribbon. Loaded with cookies and Hershey’s Milk Chocolate Kisses. Because there is nothing like too much chocolate!",
     trending: true,
     outOfStock: true,
@@ -1091,7 +1080,7 @@ export const products = [
     price: "155",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ccxs330yzrnsldbj3xlb",
-    category: "fried-momo",
+    category: "momo",
     desc: "Filled with fresh chopped veggies and tender Paneer. Mixed with herbs and fried till Golden brown colour and served with Red & Green Sauce.",
     trending: true,
     outOfStock: true,
@@ -1103,7 +1092,7 @@ export const products = [
     price: "189",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ifqm0ke64wton7mxklxk",
-    category: "pan-fried-momo",
+    category: "momo",
     desc: "Hot & crispy fried chicken schezwan (spicy) momo, tossed in sauce and garnished with coriander. (5 Pcs)",
     trending: true,
     outOfStock: false,
@@ -1127,7 +1116,7 @@ export const products = [
     price: "257",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ifdt319ulbfugwrkgv05",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 |Flame Grilled chicken patty with BK spicy sauce makes this a grill classic.Comes with Fries (M) + Pepsi (M)",
     trending: true,
     outOfStock: false,
@@ -1175,7 +1164,7 @@ export const products = [
     price: "539",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/dy5a0bmxnzcaf1fyyqzj",
-    category: "biryani-combos",
+    category: "biryani",
     desc: "[Classic Recipe served with 2 Gulab Jamun & Raita] An extravagant culinary feast for you to experience. Zaikedaar Paneer Biryani with marinated soft crumbly paneer is served alongside Subz-e-Biryani with handpicked vegetables in exuberant spices.",
     trending: false,
     outOfStock: false,
@@ -1211,7 +1200,7 @@ export const products = [
     price: "83",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyjw7gmmknlewrziltry",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Ice cream with real banana and strawberries with strawberry ribbon. This Banana and Strawberry ice cream combination has stood the test of time.",
     trending: false,
     outOfStock: false,
@@ -1236,7 +1225,7 @@ export const products = [
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/iwky2okwnrdif0fvf9d7",
     category: "steam-momo",
-    desc: "An all-time favourite, Mouth-watering Momos stuffed with mix of Juicy boneless Chicken, Cheese, Coriander, Herbs and Indian Spices (5 Pcs). Served with Spicy Red Sauce and Green Chutney.",
+    desc: "An all-time favourite, Mouth-watering Momo stuffed with mix of Juicy boneless Chicken, Cheese, Coriander, Herbs and Indian Spices (5 Pcs). Served with Spicy Red Sauce and Green Chutney.",
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
@@ -1259,7 +1248,7 @@ export const products = [
     price: "839",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vwqo1l84aygxwkbvftcd",
-    category: "biryani-combos",
+    category: "biryani",
     desc: "[Classic Recipe served with Gulab Jamun & Raita] (Paneer Subz Biryani + Zaikedaar Paneer Biryani + Zaitooni Paneer Biryani) A combo that will spoil you for choice with extravagant paneer biryanis featuring succulent pieces of marinated panner alongside choicest vegetables with long-grain basmati rice.",
     trending: true,
     outOfStock: false,
@@ -1283,7 +1272,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vtryozcy4pitk8wi1xe3",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Your wish for a quirky, vibrant ice cream just came true. A combination of blueberry and vanilla ice cream swirled with a refreshing cherry ribbon and loaded with coloured sugar strands and popping candy. Super fun, super delicious. ",
     trending: true,
     outOfStock: true,
@@ -1295,7 +1284,7 @@ export const products = [
     price: "357",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/akk0udelgnhe7ssedqe5",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "",
     trending: true,
     outOfStock: false,
@@ -1319,7 +1308,7 @@ export const products = [
     price: "169",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/jsqndnspbxt9gko38qmj",
-    category: "pan-fried-momo",
+    category: "momo",
     desc: "Hot & spongy paneer fried momo tossed in sauce and garnished with coriander. (5 Pcs)",
     trending: false,
     outOfStock: true,
@@ -1355,7 +1344,7 @@ export const products = [
     price: "250",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zoirwwr2e59yxagj3khc",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A heavenly combination of chocolate and vanilla married together with chocolate chips and ribbon. A feisty ribbon twirling its way through this chocolate chip loaded chocolate and vanilla ice cream scoop. This ice cream is as enticing as they come!(Contains milk & soy)",
     trending: true,
     outOfStock: true,
@@ -1403,8 +1392,8 @@ export const products = [
     price: "115",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/aapj9i7ltz2mj0diroik",
-    category: "burgers-[momo]",
-    desc: "Burger filled with crispy fried Veggie  Momos and topped with red & green sauce and mayonnaise, with 2 layers of Cheese Slice. Wow! Special",
+    category: "burgers-momo",
+    desc: "Burger filled with crispy fried Veggie  Momo and topped with red & green sauce and mayonnaise, with 2 layers of Cheese Slice. Wow! Special",
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
@@ -1427,7 +1416,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/puhtfckwt3rhw0izupwv",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A heavenly mélange of Hershey’s cocoa with classic vanilla ice cream intertwined with our signature caramel ribbon. Get surprised with Hershey’s milk chocolate kisses bits in each bite. Mesmerizing!",
     trending: true,
     outOfStock: false,
@@ -1439,7 +1428,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ybgg7x946wgccj182y5l",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A match made in heaven. Luscious assortment of berries swirled with rich chocolate mixture. Try our latest delicacy and fall in love with it.",
     trending: false,
     outOfStock: true,
@@ -1475,7 +1464,7 @@ export const products = [
     price: "694.07",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cwzifem8ym9pejo32uzp",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "This ice cream roll cake is a classic combination of vanilla ice cream wrapped in chocolate sponge & covered with chocolate fudge and almonds",
     trending: false,
     outOfStock: true,
@@ -1487,7 +1476,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hmuciazp8p64ywvznike",
-    category: "shahi-biryani-(serves-1)",
+    category: "biryani",
     desc: "[Served with 1 Gulab Jamun & Mint Raita] Adorned with fresh vegetables, golden-hued long-grain basmati, & the coveted Behrouz spice mix, this dish will lend you an experience unlike any other.",
     trending: false,
     outOfStock: false,
@@ -1535,7 +1524,7 @@ export const products = [
     price: "92",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/usaepnjno8ct9zfzfibj",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Perky pink, purple and childhood coloured cotton candy flavoured ice cream. Were happy to let you know that we have fulfilled every childs wish of cotton candy ice cream.",
     trending: false,
     outOfStock: false,
@@ -1547,7 +1536,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ghyewkqcmtfwx8wqdzv8",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Whacky and fun, and super yum! A combination of dark chocolate, milk chocolate, and white chocolate flavoured ice cream loaded with pretzels and wheat crispies. Out of this world indeed!",
     trending: true,
     outOfStock: true,
@@ -1571,7 +1560,7 @@ export const products = [
     price: "170",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mtpulfvexclgvgqatkib",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Warm brownie topped with delectable Belgian Bliss ice cream and hot fudge or butterscotch sauce.",
     trending: true,
     outOfStock: true,
@@ -1583,7 +1572,7 @@ export const products = [
     price: "1119",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/le5qnz7d7nlgoud3ilil",
-    category: "alishaan-biryani-(serves-4)",
+    category: "biryani",
     desc: "[Served with 6 Gulab Jamuns & Mint Raita] In this extravagant dish, soft & crumbly, fresh paneer is marinated with exquisite royal spices & layered with basmati to create a dish that is as delectable as it is extravagant.",
     trending: false,
     outOfStock: true,
@@ -1595,7 +1584,7 @@ export const products = [
     price: "539",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gr5ryzyqyamtxggglooq",
-    category: "biryani-combos",
+    category: "biryani",
     desc: "[Classic Recipe served with 2 Gulab Jamun & Raita] Experience culinary excellence. Zaikedaar Paneer Biryani with marinated soft crumbly paneer is served alongside Paneer Subz Biryani with soft crumbly paneer and marinated vegetables.",
     trending: false,
     outOfStock: false,
@@ -1607,7 +1596,7 @@ export const products = [
     price: "189",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/w5glokigjelilzdpq3ue",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Nothing beats the sure-fire magic of the classics. Try this warm, toasty waffle with a creamy scoop of classic vanilla ice cream and drizzled with a sinful chocolate sauce. Always a great go-to option!",
     trending: true,
     outOfStock: false,
@@ -1631,7 +1620,7 @@ export const products = [
     price: "449",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ebkvymonuetbjqsxvcd4",
-    category: "make-your-royal-feast",
+    category: "combo",
     desc: "(Serves 1) A royal experience with flavourful indulgences. Choose from your favourite Veg Biryani + Veg Kebab and Beverage and save up to Rs 150",
     trending: true,
     outOfStock: true,
@@ -1643,7 +1632,7 @@ export const products = [
     price: "235",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/evexn7iomtnws1qeywyd",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "When a sundae is as fun as this one, how can you not go bananas? Delicious fruit-flavoured ice cream with sliced banana is made perfect with hot fudge sauce and dollops of whipped cream. Did we mention that it also comes with roasted almonds and has a cherry on top?",
     trending: true,
     outOfStock: true,
@@ -1655,7 +1644,7 @@ export const products = [
     price: "189",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/w5glokigjelilzdpq3ue",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Nothing beats the sure-fire magic of the classics. Try this warm, toasty waffle with a creamy scoop of classic vanilla ice cream and drizzled with a sinful chocolate sauce. Always a great go-to option!",
     trending: true,
     outOfStock: false,
@@ -1679,7 +1668,7 @@ export const products = [
     price: "280",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ztoidpwlbaqu4obgzknk",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Hersheys chocolate overload ice cream plus Roasted Californian Almond ice cream. Decorated with a dollop of rich chocolaty Hersheys Almond spread, whipped cream, and our favourite, Hersheys kisses. Wait, we're not done yet! Add to it a sprinkle of chopped almonds and chocolate chips",
     trending: false,
     outOfStock: false,
@@ -1715,7 +1704,7 @@ export const products = [
     price: "175",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ue0h6buck12bkzaxus1s",
-    category: "butter-momo",
+    category: "momo",
     desc: " ",
     trending: false,
     outOfStock: false,
@@ -1727,7 +1716,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b5ophiuffdag9cftzndc",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A heavenly mélange of Hershey’s cocoa with classic vanilla ice cream intertwined with our signature caramel ribbon. Get surprised with Hershey’s milk chocolate kisses bits in each bite. Mesmerizing!",
     trending: true,
     outOfStock: false,
@@ -1751,7 +1740,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tacxv20qeee9sksnh0ze",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Perky pink, purple and childhood coloured cotton candy flavoured ice cream. We?re happy to let you know that we have fulfilled every child?s wish of cotton candy ice cream.",
     trending: false,
     outOfStock: false,
@@ -1787,7 +1776,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zpcpwnivqrp8ax7riqx9",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Love at first bite! Rich and creamy rocher ice cream tossed with crunchy caramalised hazelnut pieces. We know you can?t wait to try!",
     trending: false,
     outOfStock: true,
@@ -1835,7 +1824,7 @@ export const products = [
     price: "389",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/slkrheir1eetwypzxdve",
-    category: "shahi-biryani-(serves-1)",
+    category: "biryani",
     desc: "[Boneless, Served with 1 Gulab Jamun & Mint Raita] Tender chicken pieces cooked in creamy butter chicken gravy, layered with aromatic basmati rice and dum pukht in its full glory. A royal fusion between two of Indias most beloved dishes.",
     trending: false,
     outOfStock: true,
@@ -1859,7 +1848,7 @@ export const products = [
     price: "249",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bzrczwjsgijvkwmisifw",
-    category: "2022-feast-up-combos",
+    category: "combo",
     desc: "2 Plate Chicken Darjeeling Steam Momo + 2 Chicken Moburg + 2 Pepsi [250ml]  [Meal for 2]",
     trending: true,
     outOfStock: false,
@@ -1871,7 +1860,7 @@ export const products = [
     price: "240",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ef9ehkepn5b3rrz5bygu",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "The delicious and chocolaty Hershey’s Kisses Caramel Ice Cream scoop placed over a warm and gooey BR Chocolate fudge brownie. Drizzled with luscious chocolate fudge sauce and a creamy whipped cream swirl. Loaded with Hershey’s milk chocolate kisses.",
     trending: true,
     outOfStock: true,
@@ -1895,7 +1884,7 @@ export const products = [
     price: "179",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bnzwso0cczvnthv9fpie",
-    category: "fried-momo",
+    category: "momo",
     desc: "Filled with shredded cheese and sweet corn and mixed with the flavours of Indian masala. To make it crispy dipped in hot oil and served with red and green sauce.",
     trending: true,
     outOfStock: false,
@@ -1907,7 +1896,7 @@ export const products = [
     price: "210",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/jwxrz3wxtl6sapiesqbq",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "We took everyones favourite cookie and made it into a treat that you are unlikely to forget. Stacks of Oreo cookies, creamy Vanilla ice cream, and rich chocolate ice cream come together with hot fudge sauce and whipped cream. We will not blame you if you are smitten.",
     trending: false,
     outOfStock: false,
@@ -1931,7 +1920,7 @@ export const products = [
     price: "235",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yxwmnhkrol7aokauslhi",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Feeling peckish or have a sweet dessert wish? Go for a Brownie on The Go! 12 pieces of gooey, delicious Baskin Robbins brownie in a handy cup. So take it with you, or store it at home- there’s no wrong way to binge on this one.",
     trending: false,
     outOfStock: false,
@@ -1943,7 +1932,7 @@ export const products = [
     price: "60",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vzwe9cstxupzkww4uyg0",
-    category: "what's-new",
+    category: "trending",
     desc: "Tikki bhi, Twist bhi! Our new signature burger with spicy sauce, onion, mix veg patty & a crunchy twist!",
     trending: false,
     outOfStock: false,
@@ -1955,7 +1944,7 @@ export const products = [
     price: "429",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/okv7x8xfweavsyr58b0y",
-    category: "shahi-biryani-(serves-1)",
+    category: "biryani",
     desc: "[Served with 1 Gulab Jamun & Mint Raita] Tantalise your tastebuds with this epicurean delight of succulent chicken &  pieces marinated in aromatic spices and dum-pukht with long-grain basmati.",
     trending: false,
     outOfStock: true,
@@ -1967,7 +1956,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qfdiaqkxqwemonirbnwo",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Vanilla ice cream swirled with butterscotch ribbon. This thick, sinful butterscotch ribbon will leave you going back for seconds!",
     trending: false,
     outOfStock: true,
@@ -1979,7 +1968,7 @@ export const products = [
     price: "145",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kn1yz9gzixozdn2xigvd",
-    category: "fried-momo",
+    category: "momo",
     desc: "From our house of Veggie Delight: Filled with freshly chopped Vegetables and mixed with Indian Masala. Crispy Fried till it reaches Golden brown in colour. Served with Red and Green sauce.",
     trending: true,
     outOfStock: true,
@@ -1991,7 +1980,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kpz7ix8xy8au5gxyvztc",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Rich natural Chikoo ice cream with real Chikoo pieces (Contains Milk)",
     trending: true,
     outOfStock: false,
@@ -2004,7 +1993,7 @@ export const products = [
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/t3suhgsl9irsryxbjgob",
     category: "monthend-momomania",
-    desc: "Celebrate Weekend Party with Pan Fried Momos!",
+    desc: "Celebrate Weekend Party with Pan Fried Momo!",
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
@@ -2039,7 +2028,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nl3rudcxclilqfxjwu50",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Juicy and luscious alphonso mangoes swirled with creamy coconut milk.",
     trending: true,
     outOfStock: false,
@@ -2051,7 +2040,7 @@ export const products = [
     price: "169",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wwfdqbmhahwcqn5n8eh9",
-    category: "pan-fried-momo",
+    category: "momo",
     desc: "Hot & crispy fried chicken momo, tossed in sauce and garnished with coriander. (5 Pcs)",
     trending: true,
     outOfStock: false,
@@ -2063,7 +2052,7 @@ export const products = [
     price: "659",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q2fmhb9fpymdp2asuhsb",
-    category: "biryani-combos",
+    category: "biryani",
     desc: "[Classic Recipe served with 2 Gulab Jamun & Raita] Tantalize your tastebuds with this curated feast! Murgh Afghani Tikka Biryani with creamy & rich succulent chicken pieces is served alongside the classic Murgh Tikka Biryani with charcoal cooked marinated succulent chicken.",
     trending: true,
     outOfStock: false,
@@ -2075,7 +2064,7 @@ export const products = [
     price: "150",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pjzehgzkvndruvmxchrd",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A yummylicious gooey and chocolaty warm brownie topped with your favourite Three Cheers Chocolate ice cream and hot fudge or butterscotch sauce.",
     trending: true,
     outOfStock: false,
@@ -2087,7 +2076,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/t87hwgeouu3l7mvicawo",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Whacky and fun, and super yum! A combination of dark chocolate, milk chocolate, and white chocolate flavoured ice cream loaded with pretzels and wheat crispies. Out of this world indeed!",
     trending: false,
     outOfStock: false,
@@ -2099,7 +2088,7 @@ export const products = [
     price: "74",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gszwyvxrfp0qcpbn8uy7",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Luscious Guava ice cream dressed in fresh Guava bits & churned in creamy milk (Contains milk)",
     trending: true,
     outOfStock: false,
@@ -2124,7 +2113,7 @@ export const products = [
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/m4tvfuva014kyjulkgr1",
     category: "monthend-momomania",
-    desc: "Celebrate Weekend Party with Pan Fried Momos!",
+    desc: "Celebrate Weekend Party with Pan Fried Momo!",
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
@@ -2159,8 +2148,8 @@ export const products = [
     price: "199",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vivripvizyg4dxosc371",
-    category: "butter-momo",
-    desc: "Baked Veggie Momos tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
+    category: "momo",
+    desc: "Baked Veggie Momo tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
@@ -2171,7 +2160,7 @@ export const products = [
     price: "307",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/msp9yzcm0mo0hgc7nltp",
-    category: "meal-combos-(save-rs-45)",
+    category: "combo",
     desc: "Save Rs 45 |Our signature Whopper with 7 layers between the buns. Extra crunchy veg Patty, fresh onion, crispy lettuce, juicy tomatoes, tangy gherkins, creamy and smoky sauces with xxl buns. It’s Not A Burger, it’s a Whopper. Comes with Fries (M) + Pepsi (M)",
     trending: false,
     outOfStock: false,
@@ -2207,7 +2196,7 @@ export const products = [
     price: "159",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/s4hoqpfirliewr3qvafy",
-    category: "pan-fried-momo",
+    category: "momo",
     desc: "Crispy fried veggie momo, tossed in sauce and garnished with coriander. (5 Pcs)",
     trending: true,
     outOfStock: true,
@@ -2219,7 +2208,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/j0uvimt58fzhh9i6fovj",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Black currant Ice cream with real black currant and raisins. This flavoured sweet treat is a universal favourite!",
     trending: false,
     outOfStock: true,
@@ -2291,7 +2280,7 @@ export const products = [
     price: "220",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ajlz0qdbz0mdm7msajml",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A crispy, sweet dessert treat! Meet our toasty, crispy waffle topped with Very Berry Strawberry ice cream, a strawberry topping, fudge sauce, wheat crispies, whipped cream and a cherry. Looking to visit Strawberry Wonderland, anyone?",
     trending: true,
     outOfStock: true,
@@ -2315,7 +2304,7 @@ export const products = [
     price: "651.69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/h6xrk8hncbrekzccphz7",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "The decadence of Hershey’s Chocolate Overload ice cream meets two layers of delightfully soft chocolate sponge cake and is beautifully done up with milk chocolate Kisses, a whipped cream swirl, and golden edible balls. A must try!",
     trending: true,
     outOfStock: true,
@@ -2327,7 +2316,7 @@ export const products = [
     price: "319",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hvzduvxri5uotysdnp8h",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Delicious Alphonso Mango based ice cream made with juicy, real Mango pulp. Just go for this aam-azing Mango ice cream! (Contains Milk)",
     trending: false,
     outOfStock: true,
@@ -2339,7 +2328,7 @@ export const products = [
     price: "260",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/djbrov1w7avbcm9cdpoe",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Relive the classic cold coffee experience with this thickshake made especially with roasted coffee ice cream, and garnished with whipped cream, chocolate sauce and chocolate sprinkles. You know where to head for your next caffeine rush!",
     trending: false,
     outOfStock: true,
@@ -2351,7 +2340,7 @@ export const products = [
     price: "550",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/k4j1ob83tsc2xb2yfvu0",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Delicious 4 layered?cake?made with 2 layers of vanilla sponge?cake?intermixed with 2 layers of fresh and juicy alphonso mango ice cream. Yummy white chocolate discs and whipped cream swirls on top will make your celebrations a lot sweeter!",
     trending: true,
     outOfStock: true,
@@ -2387,7 +2376,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/eodg5e2yo4xrzyl1djri",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Vanilla base decorated with praline coated pecans&delicate caramel ribbon.Creamy cool ice cream dotted with praline pecans has just the right amount of crunch&sweetness with swirled in caramel ribbon.",
     trending: false,
     outOfStock: true,
@@ -2411,7 +2400,7 @@ export const products = [
     price: "310",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nkaqmsxlfzyl6oexjpm9",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "For all the chocoholics - A thickshake created with decadent Hershey’s chocolate overload ice cream. Served with smooth whipped cream frosting, Hershey’s kisses and Hershey’s chocolate bar. Eat, slurp, and enjoy!",
     trending: true,
     outOfStock: true,
@@ -2495,7 +2484,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/uz2pj1eutouhjkexvjk1",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A heavenly melange of Hershey's cocoa with classic vanilla ice cream intertwined with our signature caramel ribbon. Get surprised with Hershey's milk chocolate kisses bits in each bite. Mesmerizing!",
     trending: false,
     outOfStock: true,
@@ -2519,7 +2508,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bfyyakjpve2ksjy8uxca",
-    category: "butter-momo",
+    category: "momo",
     desc: " ",
     trending: false,
     outOfStock: false,
@@ -2531,7 +2520,7 @@ export const products = [
     price: "69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/c3wrlh0gw8d4yyd87esy",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Not quite like a plain Jane, this is a rich, dense vanilla ice cream that you'll recommend to friends. Seriously creamy, seriously tasty, a lot can happen over a Vanilla ice cream! (Contains milk)",
     trending: true,
     outOfStock: true,
@@ -2543,7 +2532,7 @@ export const products = [
     price: "180",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ppa3q1vlqwbtmxmb2j62",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A delicious warm brownie served with a scoop of indulgent Bavarian Chocolate ice cream topped with hot fudge",
     trending: false,
     outOfStock: false,
@@ -2555,7 +2544,7 @@ export const products = [
     price: "240",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ef9ehkepn5b3rrz5bygu",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "The delicious and chocolaty Hershey's Kisses Caramel Ice Cream scoop placed over a warm and gooey BR Chocolate fudge brownie. Drizzled with luscious chocolate fudge sauce and a creamy whipped cream swirl. Loaded with Hersheys milk chocolate kisses.",
     trending: true,
     outOfStock: true,
@@ -2567,7 +2556,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/m4jaszw0jblhsdjhbfig",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round.",
     trending: true,
     outOfStock: false,
@@ -2591,7 +2580,7 @@ export const products = [
     price: "115",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/x4wkqxeaxvokwmjrmui0",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "This ice cream roll cake is a classic combination of vanilla ice cream wrapped in chocolate sponge & covered with chocolate fudge and almonds",
     trending: true,
     outOfStock: false,
@@ -2609,25 +2598,14 @@ export const products = [
     outOfStock: true,
     tenMinutesDelivery: false,
   },
-  {
-    id: "4ad4f7ea-b1f8-4b88-9210-e2f531433e86",
-    name: "Wok Chicken Regular",
-    price: "179.02",
-    productUrl:
-      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qkwxo6x8241xyvndrrlm",
-    category: "wok",
-    desc: "",
-    trending: true,
-    outOfStock: false,
-    tenMinutesDelivery: false,
-  },
+
   {
     id: "018670b6-eb69-4a96-af6e-564478fb8102",
     name: "Murgh Kefta ( Minced Chicken Meatball Biryani, Serves-4)",
     price: "1199",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gclkzhegnko9j6odbpwt",
-    category: "alishaan-biryani-(serves-4)",
+    category: "biryani",
     desc: "[Served with 6 Gulab Jamuns & Mint Raita] Spicy, succulent minced chicken meatballs combined with an array of spices and long grain, golden-hued basmati makes this concoction a culinary meal you cannot miss",
     trending: true,
     outOfStock: true,
@@ -2639,7 +2617,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b5ophiuffdag9cftzndc",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Bestseller BR Dutch chocolate recipe made with exquisite Hersheys cocoa and married with our signature chocolate ribbon. Loaded with cookies and Hershey’s Milk Chocolate Kisses. Because there is nothing like too much chocolate!",
     trending: false,
     outOfStock: true,
@@ -2663,7 +2641,7 @@ export const products = [
     price: "310",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xfzkxegnjiy1rnvg21ay",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "The talk of the town ? a unique thickshake packed with flavour and crunch and made with creamy vanilla ice cream and Lotus Biscoff. Crowned with a whipped cream swirl and lotus biscuit crumble. A must try!",
     trending: true,
     outOfStock: true,
@@ -2675,7 +2653,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b5ophiuffdag9cftzndc",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Bestseller BR Dutch chocolate recipe made with exquisite Hershey’s cocoa and married with our signature chocolate ribbon. Loaded with cookies and Hershey’s Milk Chocolate Kisses. Because there is nothing like too much chocolate!",
     trending: true,
     outOfStock: false,
@@ -2711,7 +2689,7 @@ export const products = [
     price: "175",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gonswh0mpgfjswgrn6lq",
-    category: "pan-fried-momo",
+    category: "momo",
     desc: "Hot & crispy fried chicken darjeeling momo, tossed in sauce and garnished with coriander. (5 Pcs)",
     trending: false,
     outOfStock: true,
@@ -2723,7 +2701,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/epoosrcuq0ihbpdxwupu",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Your childhood favourite now in a no added sugar version. Sublime strawberry flavoured ice cream laden with natural strawberry puree, as well as Strawberry fruit chunks.",
     trending: false,
     outOfStock: true,
@@ -2747,7 +2725,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zrae2uos1xml7ywoyfdq",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Sweet and juicy raspberries swirled into a summer fresh sorbet. A refreshing treat to welcome this summer!",
     trending: false,
     outOfStock: true,
@@ -2759,7 +2737,7 @@ export const products = [
     price: "125",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/szzmmvlswvggshmjguqy",
-    category: "fried-momo",
+    category: "momo",
     desc: "Filled with softy juicy boneless chicken, onion, coriender and mixed with the flavours of Indian masala. To make it crispy dipped in hot oil and served with red authentic darjeeling momo sauce.",
     trending: true,
     outOfStock: false,
@@ -2771,8 +2749,8 @@ export const products = [
     price: "239",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xtxmr0kkw8a3ocg2dmuc",
-    category: "butter-momo",
-    desc: "Baked Corn & Cheese  Momos tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
+    category: "momo",
+    desc: "Baked Corn & Cheese  Momo tossed with butter masala gravy & garnished with fresh cream & kasoori meethi. (5 Pcs in one portion)",
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
@@ -2783,7 +2761,7 @@ export const products = [
     price: "69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/r7oagv1wa1xx3br6f4gy",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Rich natural Chikoo ice cream with real Chikoo pieces (Contains Milk)",
     trending: false,
     outOfStock: true,
@@ -2795,7 +2773,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/t3mfesjwkkdim6lrxbfb",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A match made in heaven. Luscious assortment of berries swirled with rich chocolate mixture. Try our latest delicacy and fall in love with it.",
     trending: true,
     outOfStock: true,
@@ -2807,7 +2785,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xjjrtbtlh93kyj0utdzs",
-    category: "2022-feast-up-combos",
+    category: "combo",
     desc: "2 Plate Chicken Chilli Momo + 2  Chicken Moburg + 2 Pepsi [250ml]  [Meal for 2]",
     trending: false,
     outOfStock: false,
@@ -2819,8 +2797,8 @@ export const products = [
     price: "305",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/izyosc2co3jbsh70epir",
-    category: "baked-momo-augratin",
-    desc: "Delicious 5 pcs Panfried Chicken Momos topped with BBQ noodles and garnished with cheese..",
+    category: "momo",
+    desc: "Delicious 5 pcs Panfried Chicken Momo topped with BBQ noodles and garnished with cheese..",
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
@@ -2831,7 +2809,7 @@ export const products = [
     price: "115",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qjairntkdnqgjynrtvr6",
-    category: "fried-momo",
+    category: "momo",
     desc: "Momo stuffed with freshly chopped Vegetable’s (Onion, carrot, cabbage, beans & Coriander), herbs and Tinch of Spices (5 Pcs). To make it crispy Fried in hot oil and Served with Spicy Red Authentic Darjeeling Momo Sauce.",
     trending: false,
     outOfStock: false,
@@ -2879,7 +2857,7 @@ export const products = [
     price: "259",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nshhasuz78l0gyfrjvvj",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "This indulgent chocolate waffle is drizzled with chocolate syrup and butterscotch, decorated with Hershey’s Kisses, and served with a scoop of Hershey’s Kisses Caramel ice cream, topped with wheat crispies, and whipped cream. The cherry on top? There’s a cherry on top",
     trending: false,
     outOfStock: true,
@@ -2897,18 +2875,7 @@ export const products = [
     outOfStock: true,
     tenMinutesDelivery: false,
   },
-  {
-    id: "8ef73111-0391-4c32-a223-cc7c90a693f4",
-    name: "Wok Prawn Regular",
-    price: "199.02",
-    productUrl:
-      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zsbhnpuay5n0pzt4qwm1",
-    category: "wok",
-    desc: "",
-    trending: false,
-    outOfStock: true,
-    tenMinutesDelivery: false,
-  },
+
   {
     id: "84953679-4987-40b5-a992-4d66afbd82d7",
     name: "Med Pepsi",
@@ -2939,7 +2906,7 @@ export const products = [
     price: "69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ijxuz1kyozfkyaujprqi",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Litchi ice cream with fresh Litchi pieces makes for a lush, delicious treat! (Contains Milk)",
     trending: true,
     outOfStock: false,
@@ -2951,7 +2918,7 @@ export const products = [
     price: "566.95",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsj3a87967mkbqeh3eav",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "A beautiful biscuit crumble base layered with delicious cheesecake ice cream. Add to it another layer of fluffy vanilla sponge cake and some more cheesecake ice cream. Adorned with exotic blueberries and whipped cream. Get transported to NY!",
     trending: true,
     outOfStock: true,
@@ -2963,8 +2930,8 @@ export const products = [
     price: "79",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/npbxxhsc1mai0ecxbv5p",
-    category: "burgers-[momo]",
-    desc: "Burger filled with crispy fried Momos and topped with red and green sauce and mayonnaise.",
+    category: "burgers-momo",
+    desc: "Burger filled with crispy fried Momo and topped with red and green sauce and mayonnaise.",
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
@@ -2999,7 +2966,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pczpdhy5kb6zxb8o9gwd",
-    category: "baskin-robbins",
+    category: "sweet-tooth",
     desc: "Sweet and juicy raspberries swirled into a summer fresh sorbet. A refreshing treat to welcome this summer!",
     trending: true,
     outOfStock: true,
@@ -3011,7 +2978,7 @@ export const products = [
     price: "355",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mv2oketehxolsihkmapa",
-    category: "wow-momo",
+    category: "combo",
     desc: "Steam Darjeeling Veg Momo [10 pieces] with 2 Veggie Moburg and 2 Pepsi [250 ml each]",
     trending: true,
     outOfStock: false,
