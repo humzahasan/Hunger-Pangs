@@ -5,8 +5,10 @@ import { useCart } from "../../context/cart-context";
 import { useWishlist } from "../../context/wishlist-context";
 const Cart = () => {
   const {
-    state: { itemInCart },
+    state: { cart },
     dispatch: cartDispatch,
+    removeFromCart,
+    changeQuantity,
   } = useCart();
 
   const { dispatch: wishlistDispatch } = useWishlist();
@@ -14,32 +16,29 @@ const Cart = () => {
   const [cartValue, setCartValue] = useState(0);
   const [cartQuantity, setCartQuantity] = useState(0);
 
-  const getCartValue = (itemInCart) => {
-    return itemInCart.reduce(
-      (total, item) => total + item.price * item.quantity,
-      0
-    );
+  const getCartValue = (cart) => {
+    return cart.reduce((total, item) => total + item.price * item.quantity, 0);
   };
 
-  const getCartQuantity = (itemInCart) => {
-    return itemInCart.reduce((total, item) => total + Number(item.quantity), 0);
+  const getCartQuantity = (cart) => {
+    return cart.reduce((total, item) => total + Number(item.quantity), 0);
   };
 
   useEffect(() => {
-    setCartValue(getCartValue(itemInCart));
-    setCartQuantity(getCartQuantity(itemInCart));
-  }, [itemInCart]);
+    setCartValue(getCartValue(cart));
+    setCartQuantity(getCartQuantity(cart));
+  }, [cart]);
 
   return (
     <>
       <Navbar />
       <main className="flex-center-column">
-        {itemInCart.length > 0 ? (
+        {cart.length > 0 ? (
           <>
             <h1 className="md-title">My Shopping Cart</h1>
             <div className="grid-col-2 grid-col-7by3 cart-container">
               <div className="grid-item">
-                {itemInCart.map((item) => {
+                {cart.map((item) => {
                   return (
                     <Card
                       orientation="horizontal"
@@ -52,13 +51,7 @@ const Cart = () => {
                       showQuantity={true}
                       quantity={item.quantity}
                       changeQuantity={(event) =>
-                        cartDispatch({
-                          type: "CHANGE_QUANTITY",
-                          payload: {
-                            id: item.id,
-                            quantity: event.target.value,
-                          },
-                        })
+                        changeQuantity(item.id, event.target.value)
                       }
                       moveToWishlist={() => {
                         wishlistDispatch({
@@ -70,12 +63,7 @@ const Cart = () => {
                           payload: item.id,
                         });
                       }}
-                      removeFromCart={() =>
-                        cartDispatch({
-                          type: "REMOVE_FROM_CART",
-                          payload: item.id,
-                        })
-                      }
+                      removeFromCart={() => removeFromCart(item.id)}
                     />
                   );
                 })}
