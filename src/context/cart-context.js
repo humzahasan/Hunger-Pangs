@@ -22,7 +22,7 @@ const CartProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    getCart();
+    encodedToken && getCart();
   }, []);
 
   const getCart = async () => {

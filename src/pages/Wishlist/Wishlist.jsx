@@ -4,43 +4,34 @@ import { Card, Navbar } from "../../components/index";
 import { useWishlist } from "../../context/wishlist-context";
 import { useCart } from "../../context/cart-context";
 const Wishlist = () => {
-  const { state } = useWishlist();
-  const { itemInWishList } = state;
-
-  const { dispatch: wishlistDispatch } = useWishlist();
-  const { dispatch: cartDispatch } = useCart();
+  const {
+    state: { wishlist },
+    removeFromWishlist,
+  } = useWishlist();
+  console.log(wishlist);
+  const { addToCart } = useCart();
 
   return (
     <>
       <Navbar />
 
       <main className="wishlist-container flex-center-column">
-        {itemInWishList.length > 0 ? (
+        {wishlist.length > 0 ? (
           <>
             <h1 className="md-title">Your Wishlist</h1>
             <div className="flex-center-row flex-wrap">
-              {itemInWishList.map((item) => (
+              {wishlist.map((item) => (
                 <Card
                   key={item.id}
-                  dismisable={() =>
-                    wishlistDispatch({
-                      type: "REMOVE_FROM_WISHLIST",
-                      payload: item,
-                    })
-                  }
+                  dismisable={() => removeFromWishlist(item.id)}
                   cardMediaUrl={item.productUrl}
                   imageOverlay={item.name}
                   moveToCart={() => {
-                    cartDispatch({
-                      type: "ADD_TO_CART",
-                      payload: item,
-                    });
+                    removeFromWishlist(item.id);
+                    addToCart(item);
                   }}
                   removeFromWishlist={() => {
-                    wishlistDispatch({
-                      type: "REMOVE_FROM_WISHLIST",
-                      payload: item,
-                    });
+                    removeFromWishlist(item.id);
                   }}
                   title={item.name}
                   subtitle={item.price}

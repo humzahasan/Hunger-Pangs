@@ -18,13 +18,13 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <UserProvider>
-        <ProductsProvider>
-          <WishlistProvider>
-            <CartProvider>
+        <WishlistProvider>
+          <CartProvider>
+            <ProductsProvider>
               <App />
-            </CartProvider>
-          </WishlistProvider>
-        </ProductsProvider>
+            </ProductsProvider>
+          </CartProvider>
+        </WishlistProvider>
       </UserProvider>
     </Router>
   </React.StrictMode>,

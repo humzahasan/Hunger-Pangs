@@ -6,12 +6,11 @@ import { useWishlist } from "../../context/wishlist-context";
 const Cart = () => {
   const {
     state: { cart },
-    dispatch: cartDispatch,
     removeFromCart,
     changeQuantity,
   } = useCart();
 
-  const { dispatch: wishlistDispatch } = useWishlist();
+  const { addToWishlist } = useWishlist();
 
   const [cartValue, setCartValue] = useState(0);
   const [cartQuantity, setCartQuantity] = useState(0);
@@ -54,14 +53,8 @@ const Cart = () => {
                         changeQuantity(item.id, event.target.value)
                       }
                       moveToWishlist={() => {
-                        wishlistDispatch({
-                          type: "ADD_TO_WISHLIST",
-                          payload: item,
-                        });
-                        cartDispatch({
-                          type: "REMOVE_FROM_CART",
-                          payload: item.id,
-                        });
+                        addToWishlist(item);
+                        removeFromCart(item.id);
                       }}
                       removeFromCart={() => removeFromCart(item.id)}
                     />
