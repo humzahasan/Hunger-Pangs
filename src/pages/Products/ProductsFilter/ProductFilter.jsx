@@ -1,6 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
+import { useProducts } from "../../../context";
+import "./ProductFilter.css";
 
 const ProductFilter = () => {
+  // const categoryListValue = [
+  //   "burgers-&-wraps",
+  //   "beverages",
+  //   "sweet-tooth",
+  //   "recommended",
+  //   "biryani",
+  //   "sides",
+  //   "chicken-wings",
+  //   "momo",
+  //   "whopper",
+  //   "shirin-&-sherbet",
+  // ];
+  const { dispatch, getSortedData } = useProducts();
+  const [tenMin, setTenMin] = useState(false);
+  const [outOfStock, setoutOfStock] = useState(false);
+  const [trending, setTrending] = useState(false);
+
   return (
     <div className="grid-item">
       <div className="filter-section">
@@ -8,94 +27,79 @@ const ProductFilter = () => {
           <p className="regular-text">Filters</p>
           <p className="cta-text">Clear</p>
         </div>
-        <section className="filter-price">
-          <p className="sm-text">Price</p>
-          <input
-            type="range"
-            name="price"
-            id="price-filter"
-            list="price-range"
-            min="50"
-            max="1000"
-            step="50"
-          />
-          <datalist id="price-range">
-            <option value="50"></option>
-            <option value="100"></option>
-            <option value="200"></option>
-            <option value="250"></option>
-            <option value="300"></option>
-            <option value="350"></option>
-            <option value="400"></option>
-            <option value="450"></option>
-            <option value="500"></option>
-            <option value="550"></option>
-            <option value="600"></option>
-          </datalist>
-        </section>
-        <section className="filter-catergory">
-          <p className="sm-text">Catergory</p>
-          <div className="input-checkbox">
-            <input type="checkbox" id="north-indian" value={"north-indian"} />
-            <label htmlFor="north-indian">North Indian</label>
-          </div>
-          <div className="input-checkbox">
-            <input type="checkbox" id="wow-momo" value={"wow-momo"} />
-            <label htmlFor="wow-momo">Chinese</label>
-          </div>
-          <div className="input-checkbox">
-            <input type="checkbox" id="burger-king" value={"burger-king"} />
-            <label htmlFor="burger-king">Fast Food</label>
-          </div>
-          <div className="input-checkbox">
-            <input
-              type="checkbox"
-              id="baskin-robbins"
-              value={"baskin-robbins"}
-            />
-            <label htmlFor="baskin-robbins">Ice Cream</label>
-          </div>
-        </section>
-        <section className="filter-rating">
-          <p className="sm-text">Rating</p>
+
+        <section
+          className="filter-sortby"
+          onClick={(e) => getSortedData(e.target.value)}
+        >
+          <p className="sm-text">Sort By Price</p>
           <label className="input-radio">
-            One Pizza <input type="radio" name="rating" />
+            High to Low
+            <input type="radio" name="price" value="HIGH_TO_LOW" />
             <span className="radio-btn"></span>
           </label>
           <label className="input-radio">
-            Two Pizza <input type="radio" name="rating" />
-            <span className="radio-btn"></span>
-          </label>
-          <label className="input-radio">
-            Three Pizza
-            <input type="radio" name="rating" />
-            <span className="radio-btn"></span>
-          </label>
-          <label className="input-radio">
-            Four Pizza <input type="radio" name="rating" />
+            Low to High <input type="radio" name="price" value="LOW_TO_HIGH" />
             <span className="radio-btn"></span>
           </label>
         </section>
         <section className="filter-sortby">
-          <p className="sm-text">Sort By</p>
+          <p className="sm-text">Sort By Delivery Time</p>
           <label className="input-radio">
-            Price - High to Low
-            <input type="radio" name="radio" />
+            Fast Delivery
+            <input type="radio" name="delivery" value="FAST_DELIVERY" />
             <span className="radio-btn"></span>
           </label>
           <label className="input-radio">
-            Price - Low to High <input type="radio" name="radio" />
+            Standard Delivery{" "}
+            <input type="radio" name="delivery" value="STANDARD_DELIVERY" />
             <span className="radio-btn"></span>
           </label>
-          <label className="input-radio">
-            Delivery Time - High to Low
-            <input type="radio" name="radio" />
-            <span className="radio-btn"></span>
-          </label>
-          <label className="input-radio">
-            Delivery Time - Low to High <input type="radio" name="radio" />
-            <span className="radio-btn"></span>
-          </label>
+        </section>
+        <section className="filter-sortby">
+          <p className="sm-text">Filter By</p>
+          <div className="input-checkbox">
+            <input
+              type="checkbox"
+              id="tenMinDelivery"
+              checked={tenMin}
+              onChange={(e) => {
+                setTenMin(!tenMin);
+
+                !tenMin && dispatch({ type: e.target.value });
+              }}
+              value="TEN_MINUTES_DELIVERY"
+            />
+            <label htmlFor="tenMinDelivery">10 Minutes Delivery</label>
+          </div>
+          <div className="input-checkbox">
+            <input
+              type="checkbox"
+              id="outOfStock"
+              checked={outOfStock}
+              onChange={(e) => {
+                setoutOfStock(!outOfStock);
+
+                !outOfStock && dispatch({ type: e.target.value });
+              }}
+              value="OUT_OF_STOCK"
+            />
+            <label htmlFor="outOfStock">Out of Stock</label>
+          </div>
+          <div className="input-checkbox">
+            <input
+              type="checkbox"
+              id="trending"
+              checked={trending}
+              onChange={(e) => {
+                setTrending(!trending);
+
+                !trending && dispatch({ type: e.target.value });
+              }}
+              value="OUT_OF_STOCK"
+            />
+            <label htmlFor="trending">Trending</label>
+          </div>
         </section>
       </div>
     </div>
