@@ -33,6 +33,7 @@ const Cart = () => {
     } else {
       navigate("/login");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cart]);
 
   return (
