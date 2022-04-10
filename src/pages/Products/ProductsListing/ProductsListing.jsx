@@ -6,13 +6,15 @@ import { Card } from "../../../components";
 import { useAuth, useCart, useProducts, useWishlist } from "../../../context";
 
 const ProductsListing = () => {
-  const { products } = useProducts();
+  const {
+    state: { products },
+  } = useProducts();
+
   const { addToWishlist } = useWishlist();
   const { addToCart } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
 
-  console.log(products);
   return (
     <div className="grid-item ">
       <h1>Products</h1>
@@ -25,13 +27,23 @@ const ProductsListing = () => {
               subtitle={item.price}
               outOfStock={item.outOfStock}
               cardMediaUrl={item.productUrl}
+              rating={item.rating}
+              tenMinutesDelivery={item.tenMinutesDelivery}
               badgeIconUrl={FavIcon}
               badgeAction={() => {
-                user ? addToWishlist(item) : navigate("/login");
+                user !== null && user._id
+                  ? addToWishlist(item)
+                  : navigate("/login");
               }}
               addToCart={() =>
-                !item.outOfStock &&
-                (user ? addToCart(item) : navigate("/login"))
+                !item.outOfStock && user !== null && user._id
+                  ? addToCart(item)
+                  : navigate("/login")
+              }
+              addToWishlist={() =>
+                user !== null && user._id
+                  ? addToWishlist(item)
+                  : navigate("/login")
               }
             />
           ))}
