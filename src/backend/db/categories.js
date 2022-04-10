@@ -55,7 +55,7 @@ export const categories = [
   },
   {
     id: "14d33901-54d9-4b57-8924-09f49d319237",
-    categoryName: "Chilli Momos (New Launch)",
+    categoryName: "Momo",
   },
   {
     id: "f7e732dd-1aff-4ede-90b2-9a0b95aa3b13",
@@ -63,30 +63,30 @@ export const categories = [
   },
   {
     id: "dd72a3da-0efa-436d-886e-cfa7bb45fc6a",
-    categoryName: "Steam Momo",
+    categoryName: "Momo",
   },
   {
     id: "83b7bcf1-a2f1-46d4-88fa-3225eef8e3e4",
-    categoryName: "Pan Fried Momo",
+    categoryName: "Momo",
   },
   {
     id: "345f4a25-7f22-4cd8-b75c-d30eb58d3445",
-    categoryName: "Butter Momo",
+    categoryName: "Momo",
   },
   {
     id: "af0112a3-af11-47e0-8d83-f2c52f3df587",
-    categoryName: "Tandoori Momo",
+    categoryName: "Momo",
   },
   { id: "00ecf375-32a3-4f64-bf0e-021ffbb82103", categoryName: "Thukpas" },
   {
     id: "8bcfed3c-a0e5-4f95-aebd-a873a11cea54",
-    categoryName: "Baked Momo Augratin",
+    categoryName: "Momo",
   },
   { id: "3a0882b9-4df0-4ddb-96bb-669a70a2e6c8", categoryName: "WOK" },
   { id: "50d8662d-cd6e-40b6-8400-79100b79cad4", categoryName: "Sizzlers" },
   {
     id: "dd1ce59c-ef10-40d9-baba-161635de1c4d",
-    categoryName: "Burgers [Momo]",
+    categoryName: "Momo",
   },
   { id: "72a0486f-da1d-4ec6-8cb2-4e9b30480fd2", categoryName: "Dessert" },
   { id: "567f0330-de95-402d-af94-eff97c58bbe6", categoryName: "Extra" },
@@ -137,7 +137,7 @@ export const categories = [
   },
   {
     id: "ebe4743c-e925-46bd-b5a7-453710d8f6d4",
-    categoryName: "MONTHEND MOMOMANIA",
+    categoryName: "Momo",
   },
   {
     id: "1e073be8-a5c3-43c3-9fcd-786dcc51a017",
@@ -145,7 +145,7 @@ export const categories = [
   },
   {
     id: "0686e82e-5b24-47b9-aa15-7576ee88ee1b",
-    categoryName: "Fried Momo",
+    categoryName: "Momo",
   },
   {
     id: "e3eb7445-bcd1-460b-a307-810fb68b7efd",

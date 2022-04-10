@@ -15,6 +15,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "83dcd498-bacc-4459-a31d-70c0ae3cdf4f",
@@ -26,7 +27,8 @@ export const products = [
     desc: "Slurp away the BR signature Splish Splash ice cream thickshake. Garnished with whipped cream and coloured sprinkles. Are you drooling already ?",
     trending: true,
     outOfStock: false,
-    tenMinutesDelivery: true,
+    tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7b434663-82af-404d-ad11-f13d31c81cd0",
@@ -39,6 +41,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f6da757b-eac4-4496-8cdb-0c493e1f372e",
@@ -51,6 +54,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3026d7b5-33e2-46be-8642-d8292d3a7d89",
@@ -63,6 +67,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "cae734b0-8710-4ae7-9725-460af0aff8b5",
@@ -75,6 +80,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "049a1871-c752-4fb6-a4b2-670ef28a0671",
@@ -87,6 +93,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4a42b1f9-7d20-4856-8669-172fb28cba37",
@@ -99,6 +106,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "18902d05-5af7-4529-8732-4f8aee1f3b2c",
@@ -111,6 +119,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "77203dae-0b29-423a-9a89-4561c09db104",
@@ -123,6 +132,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "56d9a99f-85f9-424b-a3fd-8513298ad764",
@@ -135,6 +145,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
 
   {
@@ -148,6 +159,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e079fa9c-05b4-4c9a-8e26-b93504f275e0",
@@ -160,6 +172,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "42b0b837-096b-4e6f-a6b6-60fc2f847444",
@@ -172,6 +185,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "04f50c40-ef26-474c-9391-3c67747b9bab",
@@ -184,6 +198,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "48006ec9-2591-41e9-bd7c-f9b799c31046",
@@ -196,6 +211,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "6a5ff498-1f7e-4de2-a3e2-9f48928d0663",
@@ -208,6 +224,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2160166a-41ab-4d91-bdee-bb968f9d32fe",
@@ -220,6 +237,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "cb51bff8-daa1-438c-baba-d7ab19aee875",
@@ -232,6 +250,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1937ffce-8be0-4b3c-b998-a764b08566e2",
@@ -244,6 +263,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e3f2815a-086e-4f68-bb09-2fa22accb9d5",
@@ -256,6 +276,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b592eb11-ded5-456e-a708-2d29b7a02d01",
@@ -268,6 +289,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0ffda55e-fadd-411c-abe8-208f6cf7e015",
@@ -280,6 +302,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b2ca2f05-18ea-4061-8261-d345612f22ca",
@@ -292,6 +315,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "cb5a4733-856b-4c2e-85a6-e13e10f740bd",
@@ -304,6 +328,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
 
   {
@@ -317,6 +342,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "84b7130c-f136-4d33-abb4-0430bacf2e93",
@@ -329,6 +355,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "15929910-493c-400a-955d-880a987c19fc",
@@ -341,6 +368,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7ed461ff-b68e-4164-85f4-3ab054385264",
@@ -353,6 +381,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "256d579e-9033-4ca5-9192-a60812f8467f",
@@ -365,6 +394,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "194e362d-0fd3-4e77-b621-cecdfd69a397",
@@ -377,6 +407,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ae5360f1-748c-4661-b22d-de0ba45770d4",
@@ -389,6 +420,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "70188e02-f57e-4d9d-8189-13fa3c9d58a0",
@@ -401,6 +433,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "89837f85-840c-46ed-9139-7049082199c6",
@@ -413,6 +446,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "78b426e5-66b3-49ea-a05f-89e1b80be2e1",
@@ -425,6 +459,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "de12849b-5eb8-40af-b1e5-0aa21c41cfd1",
@@ -437,6 +472,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "27e6146f-47a8-44dd-945a-1c76e287c4b1",
@@ -449,6 +485,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "41594683-d3be-41de-8d8e-91a1bfcf1765",
@@ -461,6 +498,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4992366c-a5ae-488f-9383-ec1996b0a39d",
@@ -473,6 +511,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9c0f811f-743c-4018-94b9-2c3c2c63ca40",
@@ -485,6 +524,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "55840096-b20a-4451-9894-bacfd233cc58",
@@ -497,6 +537,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d025f82e-990b-4f63-8fcc-fc42c03b0652",
@@ -509,6 +550,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f4370d08-8d3f-4a25-8965-c45add4df2e7",
@@ -521,6 +563,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "faa7542a-ba12-4e83-b389-dbd315949b55",
@@ -533,6 +576,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "233d44e8-fb8a-4f68-935d-c16673cd7c74",
@@ -545,6 +589,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "5a908281-bae2-446d-8c15-066f95586bc7",
@@ -557,6 +602,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2a8682c0-4996-46e5-9a7c-28e62044b24c",
@@ -569,6 +615,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "c8e0b91a-d87c-4111-a73b-cb055c4c32c2",
@@ -581,6 +628,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "113810b6-027d-4160-830d-cb31ee8f6650",
@@ -593,6 +641,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2dbf02f4-9d74-4670-bf8e-488e98a9021c",
@@ -605,6 +654,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8540fd47-8554-4254-8731-02e4046e3f42",
@@ -617,6 +667,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "12aaa37b-89f8-476a-bd4e-f5eb07eee999",
@@ -629,6 +680,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0fe921ab-59ce-44a1-977d-2f1ed02d055b",
@@ -641,6 +693,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "50a7ca85-8b25-468d-8a08-de7e4844db0a",
@@ -653,6 +706,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e99abfe1-decc-4737-a974-c55831de6c83",
@@ -665,6 +719,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2d861ff3-0748-4d2e-b859-21a69ae6429b",
@@ -677,6 +732,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9d1c4f5d-4b56-43cd-a75d-43a4edab5252",
@@ -689,6 +745,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "dbdbed7e-78e5-4a54-9fa8-ed0d170e5600",
@@ -701,6 +758,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8c902cb7-d09a-4c55-83e2-3dcc950e1fbe",
@@ -713,6 +771,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3557929e-670e-4b32-98f8-8906c93d0165",
@@ -725,6 +784,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "258a7e1c-14b9-4d90-b08e-304d972ab1df",
@@ -737,6 +797,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "387cd50e-e88a-4aa4-acb0-ea149e96c095",
@@ -749,6 +810,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "6d1d46ed-eefb-494e-947b-7f811e7168ae",
@@ -761,6 +823,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d107b73d-6381-40a4-8782-21a0f620d06f",
@@ -773,6 +836,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b10bcee1-91c3-4019-b64b-843267952998",
@@ -785,6 +849,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "81be8940-7cd3-4a52-adec-6ac0a61ed313",
@@ -797,6 +862,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "262cf4ed-61c4-482a-9163-36b686d091a4",
@@ -809,6 +875,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e8642c66-5ae4-40ab-ab57-d662597d4045",
@@ -821,6 +888,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "44e1418c-155b-4133-a556-79f94424012c",
@@ -833,6 +901,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9099088e-1656-4bad-a492-3a017a0f9efa",
@@ -845,6 +914,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7f91117f-aa59-4323-a92e-36b036e3075f",
@@ -857,6 +927,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "fd398e3e-1a36-4813-ab39-24ff3c655e9b",
@@ -869,6 +940,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "54d4dee9-cc5b-4c25-9b15-fa8819c27f2a",
@@ -881,6 +953,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "6caab0a5-e991-4622-8db5-ddda1b580967",
@@ -893,6 +966,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8fbff0b5-4c86-4c0f-b087-56c810fbf2d1",
@@ -905,6 +979,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "462e5bb7-fbd2-4915-8b49-182c135ea067",
@@ -917,6 +992,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f922a8a9-c096-4af5-aca8-098dc47043e3",
@@ -929,6 +1005,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "48f73cd8-37ce-40eb-bbec-8fe359e19df8",
@@ -941,6 +1018,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1d06a758-0211-4d9c-b6e9-ae947ee84029",
@@ -953,6 +1031,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7a931214-1d74-48bd-9660-45a24e4f3d8e",
@@ -965,6 +1044,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1e27f421-b31f-4115-957f-976ee44427a4",
@@ -977,6 +1057,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "c474863a-290d-4296-a2eb-d947c259abd3",
@@ -989,6 +1070,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "81093b8d-4ae8-41ad-9bfc-2ef41432934f",
@@ -1001,6 +1083,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "5600f689-cb6c-4833-833a-34cb518a25b1",
@@ -1013,6 +1096,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1f8f8721-52b9-445b-8d61-803950876195",
@@ -1025,6 +1109,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b098d449-e032-4ed5-a623-342992a327e8",
@@ -1037,6 +1122,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "64f4c521-a33b-468c-8551-04ded3f90476",
@@ -1049,6 +1135,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "01abb160-2a02-4339-85d5-45cde3ee147d",
@@ -1061,6 +1148,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "46c9c088-bba5-4c1f-a0a1-f8f4cbd343bf",
@@ -1073,6 +1161,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3c47c46e-b497-4f04-b9da-fcf85f84ebd9",
@@ -1085,6 +1174,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d82cc23f-898c-46f6-92b1-78d23ea5b9ce",
@@ -1097,6 +1187,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f025031b-6721-4699-b920-f59d29fe4307",
@@ -1109,6 +1200,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7319cc40-904d-4d72-a46f-00f53a6475c4",
@@ -1121,6 +1213,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "45380a44-229c-4997-bb92-b7803c2ef7ad",
@@ -1133,6 +1226,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "c4711d24-b8b4-4974-b7ea-509a9c8a9ec6",
@@ -1145,6 +1239,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f0f1f9cd-69a1-4dbb-8aa0-5bb8053eb2a0",
@@ -1157,6 +1252,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7ffb7dad-3bb5-4f45-b34c-767ccddfeafc",
@@ -1169,6 +1265,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b35c49ba-4704-4412-8d42-3ac660aa35ef",
@@ -1181,6 +1278,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "71eda50b-726e-4515-bfb0-b039cebdaed5",
@@ -1193,6 +1291,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "09a726b6-657a-44d0-8c32-f47ca2f5b277",
@@ -1205,6 +1304,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2ec487e8-ec92-4745-8ecd-55be998b2040",
@@ -1217,6 +1317,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3046f478-51c0-476e-8cc3-eb9f29b7d9cd",
@@ -1229,6 +1330,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0490ee52-18c2-429c-bfbf-1ba7443ff999",
@@ -1241,6 +1343,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "a076e286-3b0e-4e3a-a4df-5652bb4de931",
@@ -1253,6 +1356,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "41eb08a9-97ab-456a-b224-da6224ff9710",
@@ -1265,6 +1369,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2c95e4ed-d533-49af-affa-4cf4ece3630d",
@@ -1277,6 +1382,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "206c009f-dc31-4972-b4bb-a0b55550cfe3",
@@ -1289,6 +1395,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "344264da-e01c-48fd-8296-4831d747bed9",
@@ -1301,6 +1408,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "bdc7d070-f94b-425b-ba42-f88b72f0db72",
@@ -1313,6 +1421,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0b5f7830-d29b-4495-a00b-ee89906d474f",
@@ -1325,6 +1434,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f61625dd-ea49-4b28-bf14-b01583ee9aa7",
@@ -1337,6 +1447,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1d0af9b0-1c75-4f82-93d9-832087910c1f",
@@ -1349,6 +1460,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0ef9d29a-acf6-411e-9747-bfed566e0d00",
@@ -1361,6 +1473,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "aeb68ea1-4647-4d34-8675-5d9e447cac2c",
@@ -1373,6 +1486,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "454b1dc7-5456-47ff-950a-d22b589a3475",
@@ -1385,6 +1499,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "89040323-83f0-4377-83c9-e4c894421db0",
@@ -1397,6 +1512,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8809202c-e3ca-42a0-84ac-656d11e796c3",
@@ -1409,6 +1525,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3281c993-c0cc-4bb8-9032-4291ff7054d6",
@@ -1421,6 +1538,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "c5b7a9a4-df00-4551-b93f-ec1a95035429",
@@ -1433,6 +1551,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f3c3e57b-89a9-45bd-9ad0-281ede61102c",
@@ -1445,6 +1564,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "6ccd7b52-c03c-4205-810c-8e1fc5240645",
@@ -1457,6 +1577,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "73fa2a14-45d6-43e4-aeb2-c1a4171f2e1d",
@@ -1469,6 +1590,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4a61e7a8-a941-4e6e-92cf-bcb7e3ba39b5",
@@ -1481,6 +1603,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ab067032-5308-4d77-8a15-6448863ba380",
@@ -1493,6 +1616,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "6fafe98c-4c3d-4eab-b6c5-fc998cdc9a64",
@@ -1505,6 +1629,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "995654ea-e98f-488f-baa8-79721fbdc5e9",
@@ -1517,6 +1642,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3a5dcc4b-a915-43ae-bb3c-9a3857a33113",
@@ -1529,6 +1655,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1adc3558-869e-48b5-a889-6503fe213dc1",
@@ -1541,6 +1668,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "89c74f68-49ae-407d-b511-92ec36467d16",
@@ -1553,6 +1681,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7697d8da-667d-499a-9a0c-8beed22c4de6",
@@ -1565,6 +1694,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2baf5535-d1a6-4dcf-8a05-ab15c95ad091",
@@ -1577,6 +1707,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0e1d2f82-7a34-473a-bb00-5ab53aa87ca9",
@@ -1589,6 +1720,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "eb73e96e-9402-40c9-8e73-6a84297db4a6",
@@ -1601,6 +1733,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ba3a6a0d-bb2b-40ff-968b-569f60d99e63",
@@ -1613,6 +1746,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "5485ff22-b51d-43a5-a451-60fa8548bdb2",
@@ -1625,6 +1759,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "6d9d3071-4e24-488c-9c01-3508670b5535",
@@ -1637,6 +1772,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "06e2989b-65fd-45f0-8ff2-2cc123fb64d6",
@@ -1649,6 +1785,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "21fa9cc6-1e65-479a-b6e8-a4495e07005a",
@@ -1661,6 +1798,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "fa042e7f-4b7d-4300-bc53-555dea4e2225",
@@ -1673,6 +1811,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "541d1e64-992a-48ff-9350-a9df691e224e",
@@ -1685,6 +1824,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d0c7a76c-d168-45d1-a203-67022f1fc504",
@@ -1697,6 +1837,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7af16a84-47a1-448e-8a91-8adb6625acf2",
@@ -1709,6 +1850,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "87d73a25-ee02-437b-89f4-9bca685536d5",
@@ -1721,6 +1863,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "215136f5-e671-461f-ad4b-893f36aa0c5f",
@@ -1733,6 +1876,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "de46ea65-a223-492c-a591-43e12dcec2cf",
@@ -1745,6 +1889,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "82ca5377-7f91-4c5b-ab76-3df9a5b8d733",
@@ -1757,6 +1902,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "cf7b331d-e5f1-46a2-a528-dfa641599015",
@@ -1769,6 +1915,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f35e2ca2-57d7-4013-bfa8-f12823332754",
@@ -1781,6 +1928,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "61c506e1-5064-4fb8-bb90-268358af3c5f",
@@ -1793,6 +1941,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8b24d97f-4cbb-4969-84a7-42b2712dbf6b",
@@ -1805,6 +1954,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "21492c8f-4ed6-40a6-b4dc-8eb865d46f2d",
@@ -1817,6 +1967,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ca0fb8f9-ec4e-4dee-95e1-90c307a70b76",
@@ -1829,6 +1980,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "da2da528-62a4-4bea-bfdb-9407debc5226",
@@ -1841,6 +1993,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ae02818c-068d-4cc4-9006-c02cc3a380ac",
@@ -1853,6 +2006,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9eea1937-f038-4cbb-9cb1-7d9801c51170",
@@ -1865,6 +2019,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "dda079e6-514e-4bdd-a21b-da459b85e4a1",
@@ -1877,6 +2032,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4c09d741-6030-4149-bf83-59342ebc1c16",
@@ -1889,6 +2045,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "617cea3b-af7f-48f8-a3fa-e88e9b74d51d",
@@ -1901,6 +2058,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "947a40e9-70c7-4137-9ff7-ce3ffd953440",
@@ -1913,6 +2071,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "50694925-2f1b-4eb2-babd-c8e6518a92c7",
@@ -1925,6 +2084,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "39093870-3778-4cd1-8923-da1ea49966fb",
@@ -1937,6 +2097,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8413ca70-5fbb-4264-b32d-aa91bb30d6ad",
@@ -1949,6 +2110,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1e487754-224f-4266-922e-f120d6e32d99",
@@ -1961,6 +2123,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b9cf11f6-7c73-4913-ae51-8190e8eb4a51",
@@ -1973,6 +2136,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e03d9e6f-a75f-4fd8-ae55-256ad10003e1",
@@ -1985,6 +2149,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1ef68f42-12fb-495b-bbca-c16c50eafb63",
@@ -1997,6 +2162,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4e240fd3-d54b-4f1a-becd-198e6d7b553d",
@@ -2009,6 +2175,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "56cd6754-ead3-40ef-b5b6-6945476f9575",
@@ -2021,6 +2188,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "39f56ad4-f095-4098-ad6f-fee2a783ea7e",
@@ -2033,6 +2201,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "bd91e1b5-b9ba-4bdb-a8af-e1c31349845e",
@@ -2045,6 +2214,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f9db9ea2-f9b1-4418-b0cf-c4775bb26220",
@@ -2057,6 +2227,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f7044d01-8433-4e6b-9002-8ce2d60980d1",
@@ -2069,6 +2240,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "fa16388e-0330-4045-a3f3-65d4fc09694b",
@@ -2081,6 +2253,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3d1ad9c5-c4b3-4996-8278-339ada644ec5",
@@ -2093,6 +2266,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "b9830e2f-e3ac-4733-9db8-5c6f23cc0eb2",
@@ -2105,6 +2279,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "042a09b5-1602-4c4f-b46d-1d5d9954a9fb",
@@ -2117,6 +2292,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "70d5b5e6-46a4-41d8-b8b5-537a38a2c91b",
@@ -2129,6 +2305,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "3df09eeb-bffe-4f29-8d17-2882dcb2c8a7",
@@ -2141,6 +2318,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d56c08a8-2631-4271-87e7-2b55d48dd812",
@@ -2153,6 +2331,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2f48bd2c-2473-4d2d-80a2-0f21602dc5af",
@@ -2165,6 +2344,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "35c69b64-0eb7-45a6-b467-f45b9bb97d5b",
@@ -2177,6 +2357,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ba6292a2-f0fb-4d8a-a054-627177b5c1b4",
@@ -2189,6 +2370,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ac835ee7-db69-46a7-841e-7718fe68b02e",
@@ -2201,6 +2383,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "12a90094-ea1a-4dda-a36a-061a41ca43df",
@@ -2213,6 +2396,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "054d4781-5102-4788-9ed5-5af41547f5ba",
@@ -2225,6 +2409,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "5c24aad0-88fa-492c-a27f-0bdbc9470cee",
@@ -2237,6 +2422,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d2394024-e67a-4a4e-8f47-854de5d9e346",
@@ -2249,6 +2435,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "789dcaa5-1753-46e1-bb0b-94954993587f",
@@ -2261,6 +2448,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e1c49fa1-bfc3-4c03-b851-25fa6d2ea9b7",
@@ -2273,6 +2461,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7575ace2-2512-4304-ab99-2f7692c2e4c2",
@@ -2285,6 +2474,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "769c6973-969a-45df-b2aa-5a9ba623d1f1",
@@ -2297,6 +2487,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "e61d34d1-562d-4469-aef0-33be93a168dc",
@@ -2309,6 +2500,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1b3e2bc8-2f58-418c-bca2-90d434e9cb30",
@@ -2321,6 +2513,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "18f52dc5-ff52-4bdd-acaa-fc8f951a4615",
@@ -2333,6 +2526,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9238615b-f36d-4b91-b6a3-7ca694e6cf20",
@@ -2345,6 +2539,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "90179475-701c-4211-88f5-6015482fcba4",
@@ -2357,6 +2552,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d15cd291-4ec4-45be-a69d-cf18dc296ffa",
@@ -2369,6 +2565,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "c8ccd011-e595-4121-936c-33f002596336",
@@ -2381,6 +2578,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2e3ef476-c77b-470a-ac0f-c5d845f5683e",
@@ -2393,6 +2591,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "14b7c660-1aeb-4c58-aed2-7c096b13fee7",
@@ -2405,6 +2604,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "fecf5a9a-5a19-4398-a93e-b23a54b59ee3",
@@ -2417,6 +2617,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "61336f85-a5e7-4ef1-af8f-1ea740715335",
@@ -2429,6 +2630,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "d8c132c9-76d4-4c9f-b065-75b79155da4c",
@@ -2441,6 +2643,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f24cbc65-f719-49f2-8d8f-85b538cc7fb6",
@@ -2453,6 +2656,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "384187c0-43cd-4b74-b2cb-ad4a874c828f",
@@ -2465,6 +2669,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "33f8c9c5-df7e-4cd9-977a-6165a26a0e22",
@@ -2477,6 +2682,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "05c3bf0a-dbb3-4cd6-80a6-2feee9a1c766",
@@ -2489,6 +2695,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0478c36a-daa7-408c-b624-d49eef58a185",
@@ -2501,6 +2708,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "7ef1f5eb-7dfe-410d-b343-efd97aef4163",
@@ -2513,6 +2721,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f910d54e-65d5-47ce-aa0f-4c0e3a1a0892",
@@ -2525,6 +2734,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "1204ee57-489b-43d6-8264-539b623f59ee",
@@ -2537,6 +2747,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "55e96138-32c0-4e37-b13e-96fbe2e83388",
@@ -2549,6 +2760,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0253a04c-2e46-4574-bf8f-89193ca01236",
@@ -2561,6 +2773,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2b106540-83f2-4800-bf0f-1bcba5ec2449",
@@ -2573,6 +2786,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ea5f7bcd-d69d-4c61-b6ae-eb5ca8913541",
@@ -2585,6 +2799,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "05090b2c-9ff8-41bd-8805-aa9d94f0a56d",
@@ -2597,6 +2812,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
 
   {
@@ -2610,6 +2826,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "a956ba5d-969b-49a1-80fc-aa7557f11369",
@@ -2622,6 +2839,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "afad2f0a-ec96-4335-82f8-343c200bc0a0",
@@ -2634,6 +2852,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "41ca7a7c-f0ad-46d5-b162-7164edfb690e",
@@ -2646,6 +2865,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "93833203-21bd-483a-8741-9afbeec6fb10",
@@ -2658,6 +2878,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "bb292db6-4ccf-47ea-86c8-cc1b265d3145",
@@ -2670,6 +2891,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "5601fc6c-f723-4c16-b953-ce18228fd0f2",
@@ -2682,6 +2904,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9ee366cc-7eda-44df-91cd-82eaeeb8f77b",
@@ -2694,6 +2917,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "bbf0b814-7bfa-451c-8515-0c04d0dc8665",
@@ -2706,6 +2930,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "976641c9-5194-4325-b901-a5cf35794ed0",
@@ -2718,6 +2943,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "638138ba-69d9-4422-b5b7-1dbc5ef99117",
@@ -2730,6 +2956,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "56764335-4811-425a-8940-ff1d04ef7fac",
@@ -2742,6 +2969,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "c8d37495-4c41-4ff5-bf31-8a4c7dc6e556",
@@ -2754,6 +2982,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "ab2d5c83-7c76-4312-8a96-1550e2f31e14",
@@ -2766,6 +2995,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9b8cbef3-da70-4022-9040-99b1100c1c36",
@@ -2778,6 +3008,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f1520b52-f389-4ce6-8b82-af047677b0b7",
@@ -2790,6 +3021,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "2ad72557-ec63-4c00-9b11-e4323d28355a",
@@ -2802,6 +3034,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0a16b00c-5063-47aa-a602-b4daff2f6e83",
@@ -2814,6 +3047,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "24eab36a-fbea-488c-ba40-e367e5755e8a",
@@ -2826,6 +3060,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "9539ec5d-cebb-4ba7-8b7f-88346ff2e093",
@@ -2838,6 +3073,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "adfe92b9-f7da-4899-bd20-c3283ca136a0",
@@ -2850,6 +3086,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4878be9b-5a28-414c-a773-f445b929e1e8",
@@ -2862,6 +3099,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "664e4429-5c5a-4479-8678-3a362107bf70",
@@ -2874,6 +3112,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
 
   {
@@ -2887,6 +3126,7 @@ export const products = [
     trending: false,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "dde9f5fb-d62d-4566-b916-f7d2599be46c",
@@ -2899,6 +3139,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "0608e1ea-f560-4d96-964a-fff943e3f4e7",
@@ -2911,6 +3152,7 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "5c270786-87ad-4ca2-bb95-b9d3ccaa0e5a",
@@ -2923,6 +3165,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f3476a49-2c35-4723-bbf1-71d742c63234",
@@ -2935,6 +3178,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f4ac340f-1ca3-4c5b-bafd-8a2c07808fab",
@@ -2947,6 +3191,7 @@ export const products = [
     trending: false,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "4d9f4a00-688c-4484-88cf-e3cbabc053ad",
@@ -2959,6 +3204,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "8bb84ead-ca82-4653-9fc9-99f7df44aef5",
@@ -2971,6 +3217,7 @@ export const products = [
     trending: true,
     outOfStock: true,
     tenMinutesDelivery: false,
+    rating: Math.floor(Math.random() * 5),
   },
   {
     id: "f6467688-fc9f-4b15-9251-2d2c05e0d130",
@@ -2983,5 +3230,6 @@ export const products = [
     trending: true,
     outOfStock: false,
     tenMinutesDelivery: true,
+    rating: Math.floor(Math.random() * 5),
   },
 ];
