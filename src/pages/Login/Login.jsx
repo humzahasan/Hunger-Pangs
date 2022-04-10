@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { Navbar } from "../../components";
 import { useAuth } from "../../context";
 
@@ -18,14 +19,15 @@ const Login = () => {
         email,
         password,
       });
-      console.log(response.data.foundUser);
+
       if (response.status === 200 && response.data.encodedToken) {
         setToken(response.data);
         setUser(response.data.foundUser);
         navigate("/");
       }
     } catch (error) {
-      console.log(error);
+      console.log(error.response);
+      toast.warning("Something went wrong. Please try again!");
     }
   };
   return (

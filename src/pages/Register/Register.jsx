@@ -21,7 +21,7 @@ const Register = () => {
         email,
         password,
       });
-      console.log(response);
+
       if (response.status === 201) {
         localStorage.setItem("user", JSON.stringify(response.data));
         setUser(response.data.createdUser);
