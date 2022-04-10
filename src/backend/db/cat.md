@@ -1,0 +1,10 @@
+["burgers-&-wraps",
+"beverages",
+"sweet-tooth",
+"recommended",
+"biryani",
+"sides",
+"chicken-wings",
+"momo",
+"whopper",
+"shirin-&-sherbet"]
