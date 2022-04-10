@@ -1,16 +1,32 @@
-import { createContext, useContext, useEffect, useState } from "react";
-
+import { createContext, useContext, useState } from "react";
 const User = createContext({ user: {} });
 
 const UserProvider = ({ children }) => {
-  const token = localStorage.getItem("token");
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState([]);
 
-  useEffect(() => {
-    setUser(token);
-  }, [token]);
+  const getToken = () => {
+    let user = localStorage.getItem("user");
+    if (user) return JSON.parse(user).encodedToken;
+  };
 
-  return <User.Provider value={{ user, setUser }}>{children}</User.Provider>;
+  const setToken = (value) => {
+    let data = JSON.stringify(value);
+    localStorage.setItem("user", data);
+  };
+
+  const getUser = () => {
+    let user = localStorage.getItem("user");
+    if (user)
+      return JSON.parse(user).createdUser
+        ? JSON.parse(user).createdUser
+        : JSON.parse(user).foundUser;
+  };
+
+  return (
+    <User.Provider value={{ user, setUser, setToken, getToken, getUser }}>
+      {children}
+    </User.Provider>
+  );
 };
 
 const useAuth = () => useContext(User);
