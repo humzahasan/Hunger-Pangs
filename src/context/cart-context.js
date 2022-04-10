@@ -1,43 +1,30 @@
 import axios from "axios";
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-  useState,
-} from "react";
 import { toast } from "react-toastify";
-
+import { useAuth } from "./auth.context";
 import { CartReducer } from "../reducers/cart-reducer";
+import { createContext, useContext, useReducer } from "react";
 
 const CartContext = createContext({ itemInCart: [] });
 
-const encodedToken = localStorage.getItem("token");
-
 const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState([]);
+  const { getToken } = useAuth();
 
   const [state, dispatch] = useReducer(CartReducer, {
-    cart,
+    cart: [],
   });
-
-  useEffect(() => {
-    encodedToken && getCart();
-  }, []);
 
   const getCart = async () => {
     try {
       const res = await axios.get("/api/user/cart", {
         headers: {
-          authorization: encodedToken,
+          authorization: getToken(),
         },
       });
 
-      if (res.status === 201) {
-        setCart(res.data);
-      }
+      dispatch({ type: "SET_CART", payload: res.data.cart });
     } catch (error) {
-      toast.error("Oh no, failed to get your cart!");
+      toast.warning("Something went wrong. Please try again!");
+      console.log(error.response);
     }
   };
 
@@ -48,10 +35,11 @@ const CartProvider = ({ children }) => {
         { product },
         {
           headers: {
-            authorization: encodedToken,
+            authorization: getToken(),
           },
         }
       );
+
       if (res.status === 201) {
         dispatch({ type: "ADD_TO_CART", payload: product });
         toast.success("Item added to cart!");
@@ -59,6 +47,7 @@ const CartProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
+      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
@@ -67,7 +56,7 @@ const CartProvider = ({ children }) => {
     try {
       const res = await axios.delete(`/api/user/cart/${productId}`, {
         headers: {
-          authorization: encodedToken,
+          authorization: getToken(),
         },
       });
 
@@ -78,6 +67,7 @@ const CartProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
+      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
@@ -93,7 +83,7 @@ const CartProvider = ({ children }) => {
         },
         {
           headers: {
-            authorization: encodedToken,
+            authorization: getToken(),
           },
         }
       );
@@ -111,13 +101,25 @@ const CartProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
+      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
 
+  const clearCart = () => {
+    dispatch({ type: "CLEAR_CART" });
+  };
+
   return (
     <CartContext.Provider
-      value={{ state, addToCart, removeFromCart, changeQuantity }}
+      value={{
+        state,
+        getCart,
+        addToCart,
+        removeFromCart,
+        changeQuantity,
+        clearCart,
+      }}
     >
       {children}
     </CartContext.Provider>

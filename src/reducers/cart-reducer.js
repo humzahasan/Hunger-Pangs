@@ -1,6 +1,7 @@
 const CartReducer = (state, action) => {
-  console.log(state, action);
   switch (action.type) {
+    case "SET_CART":
+      return { ...state, cart: action.payload };
     case "ADD_TO_CART":
       const getItemInCart = state.cart.findIndex((item) => {
         return item.id === action.payload.id;
@@ -38,12 +39,14 @@ const CartReducer = (state, action) => {
       return {
         ...state,
         cart: state.cart.map((item) => {
-          console.log(item);
           return item.id === action.payload.id
             ? { ...item, quantity: action.payload.quantity }
             : item;
         }),
       };
+
+    case "CLEAR_CART":
+      return { ...state, cart: [] };
 
     default:
       return state;
