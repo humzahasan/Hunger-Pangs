@@ -1,36 +1,68 @@
-import React, { useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import { useProducts } from "../../../context";
 import "./ProductFilter.css";
 
 const ProductFilter = () => {
-  // const categoryListValue = [
-  //   "burgers-&-wraps",
-  //   "beverages",
-  //   "sweet-tooth",
-  //   "recommended",
-  //   "biryani",
-  //   "sides",
-  //   "chicken-wings",
-  //   "momo",
-  //   "whopper",
-  //   "shirin-&-sherbet",
-  // ];
-  const { dispatch, getSortedData } = useProducts();
-  const [tenMin, setTenMin] = useState(false);
-  const [outOfStock, setoutOfStock] = useState(false);
-  const [trending, setTrending] = useState(false);
+  const { getUpdatedProducts } = useProducts();
 
+  const categoryList = [
+    "all",
+    "ice-cream",
+    "burger-&-wraps",
+    "momo",
+    "biryani",
+    "north-indian",
+  ];
+
+  const { category } = useParams();
+  const [rating, setRating] = useState(3);
+  const [modifyProduct, setModifyProduct] = useState({
+    sortBy: "",
+    filterBy: "all",
+    rating: 3,
+    clearAll: false,
+  });
+
+  useEffect(() => {
+    getUpdatedProducts(modifyProduct);
+  }, [modifyProduct]);
+
+  useEffect(() => {
+    if (category) {
+      setModifyProduct({ ...modifyProduct, filterBy: category });
+    } else {
+      getUpdatedProducts(modifyProduct);
+    }
+  }, [category]);
   return (
     <div className="grid-item">
       <div className="filter-section">
         <div className="row-flex">
           <p className="regular-text">Filters</p>
-          <p className="cta-text">Clear</p>
+          <p
+            className="cta-text"
+            onClick={(e) => {
+              setModifyProduct({
+                ...modifyProduct,
+                clearAll: true,
+              });
+            }}
+          >
+            Clear
+          </p>
         </div>
 
         <section
           className="filter-sortby"
-          onClick={(e) => getSortedData(e.target.value)}
+          onClick={(e) => {
+            setModifyProduct({
+              ...modifyProduct,
+              sortBy: e.target.value,
+              clearAll: false,
+            });
+          }}
         >
           <p className="sm-text">Sort By Price</p>
           <label className="input-radio">
@@ -43,63 +75,49 @@ const ProductFilter = () => {
             <span className="radio-btn"></span>
           </label>
         </section>
-        <section className="filter-sortby">
-          <p className="sm-text">Sort By Delivery Time</p>
-          <label className="input-radio">
-            Fast Delivery
-            <input type="radio" name="delivery" value="FAST_DELIVERY" />
-            <span className="radio-btn"></span>
-          </label>
-          <label className="input-radio">
-            Standard Delivery{" "}
-            <input type="radio" name="delivery" value="STANDARD_DELIVERY" />
-            <span className="radio-btn"></span>
-          </label>
+        <section
+          className="filter-sortby"
+          onClick={(e) => {
+            setModifyProduct({
+              ...modifyProduct,
+              rating: Number(e.target.value),
+              clearAll: false,
+            });
+          }}
+          style={{ width: "50%" }}
+        >
+          <p className="sm-text">Filter By Rating</p>
+          <input
+            type="range"
+            list="tickmarks"
+            className="slider"
+            value={rating}
+            min={0}
+            max={5}
+            step={1}
+            onChange={(e) => setRating(Number(e.target.value))}
+          />
+          <output id="num">{rating}</output>
         </section>
-        <section className="filter-sortby">
-          <p className="sm-text">Filter By</p>
-          <div className="input-checkbox">
-            <input
-              type="checkbox"
-              id="tenMinDelivery"
-              checked={tenMin}
-              onChange={(e) => {
-                setTenMin(!tenMin);
 
-                !tenMin && dispatch({ type: e.target.value });
-              }}
-              value="TEN_MINUTES_DELIVERY"
-            />
-            <label htmlFor="tenMinDelivery">10 Minutes Delivery</label>
-          </div>
-          <div className="input-checkbox">
-            <input
-              type="checkbox"
-              id="outOfStock"
-              checked={outOfStock}
-              onChange={(e) => {
-                setoutOfStock(!outOfStock);
-
-                !outOfStock && dispatch({ type: e.target.value });
-              }}
-              value="OUT_OF_STOCK"
-            />
-            <label htmlFor="outOfStock">Out of Stock</label>
-          </div>
-          <div className="input-checkbox">
-            <input
-              type="checkbox"
-              id="trending"
-              checked={trending}
-              onChange={(e) => {
-                setTrending(!trending);
-
-                !trending && dispatch({ type: e.target.value });
-              }}
-              value="OUT_OF_STOCK"
-            />
-            <label htmlFor="trending">Trending</label>
-          </div>
+        <section
+          className="filter-sortby"
+          onClick={(e) => {
+            setModifyProduct({
+              ...modifyProduct,
+              filterBy: e.target.value,
+              clearAll: false,
+            });
+          }}
+        >
+          <p className="sm-text">Filter By Categories</p>
+          {categoryList.map((item, index) => (
+            <label className="input-radio" key={index}>
+              {item.split("-").join(" ").toUpperCase()}
+              <input type="radio" name="category" value={item} />
+              <span className="radio-btn"></span>
+            </label>
+          ))}
         </section>
       </div>
     </div>
