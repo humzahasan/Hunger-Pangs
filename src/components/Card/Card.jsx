@@ -29,6 +29,7 @@ const Card = ({
   badgeAction,
   tenMinutesDelivery,
   rating,
+  clickHandler,
 }) => {
   const count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -41,6 +42,7 @@ const Card = ({
           ? "card card-horizontal-lg"
           : "card card-horizontal"
       }
+      onClick={clickHandler}
     >
       {dismisable && (
         <div className="card-dismisable" onClick={dismisable}>
@@ -125,7 +127,7 @@ const Card = ({
             </>
           </div>
         )}
-        {!outOfStock && tenMinutesDelivery && (
+        {tenMinutesDelivery && (
           <div className="card-delivery" title="Delivery Under 10 minutes">
             <img src={Fast} alt="fast delivery" />
           </div>

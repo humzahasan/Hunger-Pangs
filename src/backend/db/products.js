@@ -23,7 +23,7 @@ export const products = [
     price: "260",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/o2knpvsxohodprxrulmd",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Slurp away the BR signature Splish Splash ice cream thickshake. Garnished with whipped cream and coloured sprinkles. Are you drooling already ?",
     trending: true,
     outOfStock: false,
@@ -36,7 +36,7 @@ export const products = [
     price: "541.53",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wcuffm3lzap60tjnlzbo",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A 4 decker cake made with alternate layers of super moist vanilla sponge cake and succulent pineapple ice cream. Garnished with white chocolate and whipped cream swirls. Pineapple cakes never run out of fashion!",
     trending: true,
     outOfStock: false,
@@ -75,7 +75,7 @@ export const products = [
     price: "75",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/phm3t2g7v0lpczvtu6g7",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our best-selling burger with crispy veg Double patty, fresh onion and our signature sauce.",
     trending: false,
     outOfStock: true,
@@ -88,7 +88,7 @@ export const products = [
     price: "1102",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/y4bkedujoev0fxapetnd",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Veg Whopper + 2 Crispy Veg + 5pc Veggie Strips + 1 King Fries + 4 Pepsi (M)",
     trending: true,
     outOfStock: true,
@@ -245,7 +245,7 @@ export const products = [
     price: "318",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ddtsthzckasbpadrpzxo",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "1 Veg Whopper + 1 Chocolate Thick Shake",
     trending: false,
     outOfStock: true,
@@ -337,7 +337,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fyoumaj78lmqeg7mmbzn",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Rich chocolate based ice cream adorned with chocolate pieces and cashew nut crispies. If it?s Bavarian Chocolate flavour then it has got to be sinful and intensely indulgent. Throw in a bit of crunch and you?ve got a truly divine chocolate ice cream treat.",
     trending: false,
     outOfStock: false,
@@ -402,7 +402,7 @@ export const products = [
     price: "60",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/i75yb4iabyqdzaidmdec",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Freshly made egg patty burger",
     trending: false,
     outOfStock: false,
@@ -415,7 +415,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hxf6ubwgrxj8xfwfflhl",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round",
     trending: true,
     outOfStock: true,
@@ -454,7 +454,7 @@ export const products = [
     price: "487",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hknlbsog3qrknvlqf6eb",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Fiery Chicken +1Classic Chicken",
     trending: true,
     outOfStock: true,
@@ -467,7 +467,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hamy8zrytxhfcsuksdmu",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round.",
     trending: false,
     outOfStock: false,
@@ -545,7 +545,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tmbgqdf2bqdzamya2vam",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "An ice cream that tells the mint and chocolate love story like no other. This classic ice cream is a marriage of Mint and Milk Chocolate pieces.",
     trending: true,
     outOfStock: false,
@@ -610,7 +610,7 @@ export const products = [
     price: "199",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fq2cl1baovc3mxyjbgxf",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Cheese oozing spicy veg patty, veggies, Cheese slice and creamy sauce. An indulgent treat from our King's Collection!",
     trending: true,
     outOfStock: false,
@@ -675,7 +675,7 @@ export const products = [
     price: "339",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xvnhfsvknf9g2xval0ef",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Praline coated Almonds peeping out of Dark Chocolate ice cream (Contains milk & tree nuts (Almond)",
     trending: true,
     outOfStock: false,
@@ -701,7 +701,7 @@ export const products = [
     price: "566.95",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wt0bz4gjpmexoqdjg1i6",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A divine combo of soft red velvet?cake?intertwined with creamy Cookies n Cream ice cream topped with cookies and Red velvet?cake?crumble.?",
     trending: false,
     outOfStock: true,
@@ -727,7 +727,7 @@ export const products = [
     price: "104",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ypgg0mgefnuczpylx3sm",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Ever imagined all the delicious flavours of a sundae coming together in a single scoop? We just made it possible!? Sit back and enjoy a scrumptious sundae at the comfort of your home.",
     trending: false,
     outOfStock: false,
@@ -753,7 +753,7 @@ export const products = [
     price: "651.69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cgstmibuowbrmqtcg4hd",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Smooth, creamy Dutch chocolate ice cream with Kit-Kat bits spread generously on top of a luscious chocolate sponge cake, and topped with crunchy Kit-Kat wafer biscuits and chocolate balls.",
     trending: true,
     outOfStock: false,
@@ -831,7 +831,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ybgg7x946wgccj182y5l",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Sublime Strawberry ice cream with real strawberry pieces. This Strawberry ice cream is a childhood favourite. Scrap that actually, it?s an all time favourite! (Contains Milk)",
     trending: true,
     outOfStock: false,
@@ -857,7 +857,7 @@ export const products = [
     price: "269",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/feav5cp4aqxfd4dxqito",
-    category: "tandoori-momo",
+    category: "momo",
     desc: "It is Paneer Tandoori Momo filled with paneer tikka, green capsicum, red & yellow bell pepper and Indian spices.",
     trending: true,
     outOfStock: false,
@@ -896,7 +896,7 @@ export const products = [
     price: "645",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xmn0gxjmikauadvwez9o",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Fiery Chicken + 1King Fries + 2 Med Pepsi",
     trending: true,
     outOfStock: true,
@@ -909,7 +909,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/dpuuait9bdtxtyod0f1u",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "The infamous decadent BR chocolate ice cream adorned with caramelized cashew crunch. Will definitely leave you asking for more.",
     trending: false,
     outOfStock: true,
@@ -935,7 +935,7 @@ export const products = [
     price: "83",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tdykp0kyi76f5s72ydyo",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Vanilla ice cream with caramel ribbon&almond praline. Weve put together 2classics flavours with caramel ribbon stitching them together. This Almond Praline Gold proves sometime old is truly gold!",
     trending: true,
     outOfStock: false,
@@ -948,7 +948,7 @@ export const products = [
     price: "398",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yn8qemarnba8st8woxrx",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "Chicken Whopper + Chicken Whopper",
     trending: false,
     outOfStock: false,
@@ -974,7 +974,7 @@ export const products = [
     price: "135",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/lxpgtvly0fmasrwawup2",
-    category: "steam-momo",
+    category: "momo",
     desc: "Delicious momo stuffed with freshly chopped Veggies (carrot, cabbage, beans & Coriander), Paneer, tinch of spices and mixed with Indian Masala (5 Pcs).  Served with Spicy Red Sauce and Green Chutney.",
     trending: false,
     outOfStock: true,
@@ -1052,7 +1052,7 @@ export const products = [
     price: "288.14",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qj4bnj8r0h2i6dms1eps",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Vanilla ice cream with caramel ribbon and almond praline. We?ve put together two classics flavours with a caramel ribbon stitching them together. This Almond Praline Gold proves that sometime old is truly gold! \n(Contains milk & tree nuts)",
     trending: true,
     outOfStock: false,
@@ -1078,7 +1078,7 @@ export const products = [
     price: "677.12",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/crgbh7dkkcvxbyi1m7zb",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Want to give chocolate a miss? Then, try this! Luscious Biscoff ice cream generously spread over a bed of handmade Biscoff biscuit crust and rich vanilla sponge cake. Perfected with a delightfully golden brown caramel sauce and Lotus biscuit. Extraordinary!",
     trending: false,
     outOfStock: false,
@@ -1130,7 +1130,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/m4jaszw0jblhsdjhbfig",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round.",
     trending: true,
     outOfStock: false,
@@ -1143,7 +1143,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ewjfgdxyd5omyneabakg",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "",
     trending: true,
     outOfStock: false,
@@ -1156,7 +1156,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xmixb9ukejfka42lrrhb",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Bestseller BR Dutch chocolate recipe made with exquisite Hershey’s cocoa and married with our signature chocolate ribbon. Loaded with cookies and Hershey’s Milk Chocolate Kisses. Because there is nothing like too much chocolate!",
     trending: true,
     outOfStock: true,
@@ -1221,7 +1221,7 @@ export const products = [
     price: "99",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/uvfehwtz2fceyrtfjsoc",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our tribute to classic american taste. BK veg patty, garden fresh crispy lettuce, juicy tomato(seasonal) & our signature sauce.",
     trending: true,
     outOfStock: false,
@@ -1234,7 +1234,7 @@ export const products = [
     price: "95",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ndp3akjkdainthdpugjp",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our best-selling burger with crispy veg Double patty, Cheese slice, fresh onion and our signature sauce.",
     trending: true,
     outOfStock: false,
@@ -1299,7 +1299,7 @@ export const products = [
     price: "83",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyjw7gmmknlewrziltry",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Ice cream with real banana and strawberries with strawberry ribbon. This Banana and Strawberry ice cream combination has stood the test of time.",
     trending: false,
     outOfStock: false,
@@ -1325,7 +1325,7 @@ export const products = [
     price: "169",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/iwky2okwnrdif0fvf9d7",
-    category: "steam-momo",
+    category: "momo",
     desc: "An all-time favourite, Mouth-watering Momo stuffed with mix of Juicy boneless Chicken, Cheese, Coriander, Herbs and Indian Spices (5 Pcs). Served with Spicy Red Sauce and Green Chutney.",
     trending: false,
     outOfStock: false,
@@ -1377,7 +1377,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vtryozcy4pitk8wi1xe3",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Your wish for a quirky, vibrant ice cream just came true. A combination of blueberry and vanilla ice cream swirled with a refreshing cherry ribbon and loaded with coloured sugar strands and popping candy. Super fun, super delicious. ",
     trending: true,
     outOfStock: true,
@@ -1442,7 +1442,7 @@ export const products = [
     price: "723",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/i5nsaca5ub9ve5dzkj7e",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "1 Classic Chicken + 2 Crispy Chicken Double Patty + 1 King Fries + 1Chicken Fries + 2 Pepsi (M)",
     trending: true,
     outOfStock: true,
@@ -1455,7 +1455,7 @@ export const products = [
     price: "250",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zoirwwr2e59yxagj3khc",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A heavenly combination of chocolate and vanilla married together with chocolate chips and ribbon. A feisty ribbon twirling its way through this chocolate chip loaded chocolate and vanilla ice cream scoop. This ice cream is as enticing as they come!(Contains milk & soy)",
     trending: true,
     outOfStock: true,
@@ -1481,7 +1481,7 @@ export const products = [
     price: "358",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/v7eokx69s2sg0bnp0otx",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Crispy Veg Double Patty + 1 King Fries +1Chocolate mousse cup",
     trending: false,
     outOfStock: false,
@@ -1507,7 +1507,7 @@ export const products = [
     price: "115",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/aapj9i7ltz2mj0diroik",
-    category: "burgers-momo",
+    category: "momo",
     desc: "Burger filled with crispy fried Veggie  Momo and topped with red & green sauce and mayonnaise, with 2 layers of Cheese Slice. Wow! Special",
     trending: true,
     outOfStock: true,
@@ -1533,7 +1533,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/puhtfckwt3rhw0izupwv",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A heavenly mélange of Hershey’s cocoa with classic vanilla ice cream intertwined with our signature caramel ribbon. Get surprised with Hershey’s milk chocolate kisses bits in each bite. Mesmerizing!",
     trending: true,
     outOfStock: false,
@@ -1546,7 +1546,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ybgg7x946wgccj182y5l",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A match made in heaven. Luscious assortment of berries swirled with rich chocolate mixture. Try our latest delicacy and fall in love with it.",
     trending: false,
     outOfStock: true,
@@ -1559,7 +1559,7 @@ export const products = [
     price: "159",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/j9pdrj7pgulhetj4qx2s",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our tribute to classic american taste. BK chicken Double patty, garden fresh crispy lettuce, juicy tomato(seasonal) & our signature sauce.",
     trending: false,
     outOfStock: false,
@@ -1585,7 +1585,7 @@ export const products = [
     price: "694.07",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cwzifem8ym9pejo32uzp",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "This ice cream roll cake is a classic combination of vanilla ice cream wrapped in chocolate sponge & covered with chocolate fudge and almonds",
     trending: false,
     outOfStock: true,
@@ -1624,7 +1624,7 @@ export const products = [
     price: "119",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kzqwwiqxj6axbrqlmqln",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our best-selling burger with crispy chicken Double Patty, fresh onion and our signature sauce.",
     trending: true,
     outOfStock: false,
@@ -1637,7 +1637,7 @@ export const products = [
     price: "327",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yiftfd3kgorq3pftd233",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "1 Cheese Meltdown +1 Veggie Strips + 1  Chocolate Mousse cup",
     trending: true,
     outOfStock: false,
@@ -1650,7 +1650,7 @@ export const products = [
     price: "92",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/usaepnjno8ct9zfzfibj",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Perky pink, purple and childhood coloured cotton candy flavoured ice cream. Were happy to let you know that we have fulfilled every childs wish of cotton candy ice cream.",
     trending: false,
     outOfStock: false,
@@ -1663,7 +1663,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ghyewkqcmtfwx8wqdzv8",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Whacky and fun, and super yum! A combination of dark chocolate, milk chocolate, and white chocolate flavoured ice cream loaded with pretzels and wheat crispies. Out of this world indeed!",
     trending: true,
     outOfStock: true,
@@ -1676,7 +1676,7 @@ export const products = [
     price: "795",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/erfzcnbcwmcbvsynmfsn",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "1 Chicken Whopper + 2 Crispy Chicken + 1 King Fries + Regular Boneless + 2 Pepsi (M)",
     trending: true,
     outOfStock: true,
@@ -1689,7 +1689,7 @@ export const products = [
     price: "170",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mtpulfvexclgvgqatkib",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Warm brownie topped with delectable Belgian Bliss ice cream and hot fudge or butterscotch sauce.",
     trending: true,
     outOfStock: true,
@@ -1728,7 +1728,7 @@ export const products = [
     price: "189",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/w5glokigjelilzdpq3ue",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Nothing beats the sure-fire magic of the classics. Try this warm, toasty waffle with a creamy scoop of classic vanilla ice cream and drizzled with a sinful chocolate sauce. Always a great go-to option!",
     trending: true,
     outOfStock: false,
@@ -1767,7 +1767,7 @@ export const products = [
     price: "235",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/evexn7iomtnws1qeywyd",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "When a sundae is as fun as this one, how can you not go bananas? Delicious fruit-flavoured ice cream with sliced banana is made perfect with hot fudge sauce and dollops of whipped cream. Did we mention that it also comes with roasted almonds and has a cherry on top?",
     trending: true,
     outOfStock: true,
@@ -1780,7 +1780,7 @@ export const products = [
     price: "189",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/w5glokigjelilzdpq3ue",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Nothing beats the sure-fire magic of the classics. Try this warm, toasty waffle with a creamy scoop of classic vanilla ice cream and drizzled with a sinful chocolate sauce. Always a great go-to option!",
     trending: true,
     outOfStock: false,
@@ -1806,7 +1806,7 @@ export const products = [
     price: "280",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ztoidpwlbaqu4obgzknk",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Hersheys chocolate overload ice cream plus Roasted Californian Almond ice cream. Decorated with a dollop of rich chocolaty Hersheys Almond spread, whipped cream, and our favourite, Hersheys kisses. Wait, we're not done yet! Add to it a sprinkle of chopped almonds and chocolate chips",
     trending: false,
     outOfStock: false,
@@ -1832,7 +1832,7 @@ export const products = [
     price: "308",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pohyxhppuvjo5plgdvlz",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Crispy Veg Double Patty + 1King Fries + 1Veggie strips",
     trending: false,
     outOfStock: false,
@@ -1858,7 +1858,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b5ophiuffdag9cftzndc",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A heavenly mélange of Hershey’s cocoa with classic vanilla ice cream intertwined with our signature caramel ribbon. Get surprised with Hershey’s milk chocolate kisses bits in each bite. Mesmerizing!",
     trending: true,
     outOfStock: false,
@@ -1871,7 +1871,7 @@ export const products = [
     price: "159",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/jl47bpwqrvv4kryuwrlk",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our signature Whopper with 7 layers between the buns in a convenient size. Extra crunchy veg Double Patty, fresh onion, crispy lettuce, juicy tomatoes(seasonal), tangy gherkins, creamy and smoky sauces.",
     trending: true,
     outOfStock: true,
@@ -1884,7 +1884,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tacxv20qeee9sksnh0ze",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Perky pink, purple and childhood coloured cotton candy flavoured ice cream. We?re happy to let you know that we have fulfilled every child?s wish of cotton candy ice cream.",
     trending: false,
     outOfStock: false,
@@ -1923,7 +1923,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zpcpwnivqrp8ax7riqx9",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Love at first bite! Rich and creamy rocher ice cream tossed with crunchy caramalised hazelnut pieces. We know you can?t wait to try!",
     trending: false,
     outOfStock: true,
@@ -1962,7 +1962,7 @@ export const products = [
     price: "229",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/rd0tlq49wwoqglqq1g4j",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "1 Crispy Chicken + 1 Chocolate Thick Shake",
     trending: true,
     outOfStock: false,
@@ -1988,7 +1988,7 @@ export const products = [
     price: "624",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/jhah84mzfr04eb3nbjno",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Crispy Chicken Double Patty + 1King Peri Peri Fries + 1 Chicken Fries + 2 Pepsi (M)",
     trending: false,
     outOfStock: true,
@@ -2014,7 +2014,7 @@ export const products = [
     price: "240",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ef9ehkepn5b3rrz5bygu",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "The delicious and chocolaty Hershey’s Kisses Caramel Ice Cream scoop placed over a warm and gooey BR Chocolate fudge brownie. Drizzled with luscious chocolate fudge sauce and a creamy whipped cream swirl. Loaded with Hershey’s milk chocolate kisses.",
     trending: true,
     outOfStock: true,
@@ -2027,7 +2027,7 @@ export const products = [
     price: "80",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/r2dglakjqmbiyumugqb0",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Freshly made egg double patty burger",
     trending: false,
     outOfStock: false,
@@ -2053,7 +2053,7 @@ export const products = [
     price: "210",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/jwxrz3wxtl6sapiesqbq",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "We took everyones favourite cookie and made it into a treat that you are unlikely to forget. Stacks of Oreo cookies, creamy Vanilla ice cream, and rich chocolate ice cream come together with hot fudge sauce and whipped cream. We will not blame you if you are smitten.",
     trending: false,
     outOfStock: false,
@@ -2079,7 +2079,7 @@ export const products = [
     price: "235",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yxwmnhkrol7aokauslhi",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Feeling peckish or have a sweet dessert wish? Go for a Brownie on The Go! 12 pieces of gooey, delicious Baskin Robbins brownie in a handy cup. So take it with you, or store it at home- there’s no wrong way to binge on this one.",
     trending: false,
     outOfStock: false,
@@ -2118,7 +2118,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/qfdiaqkxqwemonirbnwo",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Vanilla ice cream swirled with butterscotch ribbon. This thick, sinful butterscotch ribbon will leave you going back for seconds!",
     trending: false,
     outOfStock: true,
@@ -2144,7 +2144,7 @@ export const products = [
     price: "279",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/kpz7ix8xy8au5gxyvztc",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Rich natural Chikoo ice cream with real Chikoo pieces (Contains Milk)",
     trending: true,
     outOfStock: false,
@@ -2196,7 +2196,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nl3rudcxclilqfxjwu50",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Juicy and luscious alphonso mangoes swirled with creamy coconut milk.",
     trending: true,
     outOfStock: false,
@@ -2235,7 +2235,7 @@ export const products = [
     price: "150",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pjzehgzkvndruvmxchrd",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A yummylicious gooey and chocolaty warm brownie topped with your favourite Three Cheers Chocolate ice cream and hot fudge or butterscotch sauce.",
     trending: true,
     outOfStock: false,
@@ -2248,7 +2248,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/t87hwgeouu3l7mvicawo",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Whacky and fun, and super yum! A combination of dark chocolate, milk chocolate, and white chocolate flavoured ice cream loaded with pretzels and wheat crispies. Out of this world indeed!",
     trending: false,
     outOfStock: false,
@@ -2261,7 +2261,7 @@ export const products = [
     price: "74",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gszwyvxrfp0qcpbn8uy7",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Luscious Guava ice cream dressed in fresh Guava bits & churned in creamy milk (Contains milk)",
     trending: true,
     outOfStock: false,
@@ -2352,7 +2352,7 @@ export const products = [
     price: "139",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fw2lf3gdm3vnqeqxysy0",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our tribute to classic american taste. BK chicken patty, garden fresh crispy lettuce, juicy tomato(seasonal), Cheese slice & our signature sauce.",
     trending: true,
     outOfStock: false,
@@ -2391,7 +2391,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/j0uvimt58fzhh9i6fovj",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Black currant Ice cream with real black currant and raisins. This flavoured sweet treat is a universal favourite!",
     trending: false,
     outOfStock: true,
@@ -2469,7 +2469,7 @@ export const products = [
     price: "220",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ajlz0qdbz0mdm7msajml",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A crispy, sweet dessert treat! Meet our toasty, crispy waffle topped with Very Berry Strawberry ice cream, a strawberry topping, fudge sauce, wheat crispies, whipped cream and a cherry. Looking to visit Strawberry Wonderland, anyone?",
     trending: true,
     outOfStock: true,
@@ -2482,7 +2482,7 @@ export const products = [
     price: "125",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fo5tyosdphmvzsqx4mwb",
-    category: "steam-momo",
+    category: "momo",
     desc: "Momo stuffed with freshly chopped Vegetable’s (carrot, cabbage, beans & Coriander), herbs and Tinch of Spices (5 Pcs). Served with Spicy Red Sauce and Green Chutney.",
     trending: true,
     outOfStock: false,
@@ -2495,7 +2495,7 @@ export const products = [
     price: "651.69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/h6xrk8hncbrekzccphz7",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "The decadence of Hershey’s Chocolate Overload ice cream meets two layers of delightfully soft chocolate sponge cake and is beautifully done up with milk chocolate Kisses, a whipped cream swirl, and golden edible balls. A must try!",
     trending: true,
     outOfStock: true,
@@ -2508,7 +2508,7 @@ export const products = [
     price: "319",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hvzduvxri5uotysdnp8h",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Delicious Alphonso Mango based ice cream made with juicy, real Mango pulp. Just go for this aam-azing Mango ice cream! (Contains Milk)",
     trending: false,
     outOfStock: true,
@@ -2521,7 +2521,7 @@ export const products = [
     price: "260",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/djbrov1w7avbcm9cdpoe",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Relive the classic cold coffee experience with this thickshake made especially with roasted coffee ice cream, and garnished with whipped cream, chocolate sauce and chocolate sprinkles. You know where to head for your next caffeine rush!",
     trending: false,
     outOfStock: true,
@@ -2534,7 +2534,7 @@ export const products = [
     price: "550",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/k4j1ob83tsc2xb2yfvu0",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Delicious 4 layered?cake?made with 2 layers of vanilla sponge?cake?intermixed with 2 layers of fresh and juicy alphonso mango ice cream. Yummy white chocolate discs and whipped cream swirls on top will make your celebrations a lot sweeter!",
     trending: true,
     outOfStock: true,
@@ -2573,7 +2573,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/eodg5e2yo4xrzyl1djri",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Vanilla base decorated with praline coated pecans&delicate caramel ribbon.Creamy cool ice cream dotted with praline pecans has just the right amount of crunch&sweetness with swirled in caramel ribbon.",
     trending: false,
     outOfStock: true,
@@ -2599,7 +2599,7 @@ export const products = [
     price: "310",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nkaqmsxlfzyl6oexjpm9",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "For all the chocoholics - A thickshake created with decadent Hershey’s chocolate overload ice cream. Served with smooth whipped cream frosting, Hershey’s kisses and Hershey’s chocolate bar. Eat, slurp, and enjoy!",
     trending: true,
     outOfStock: true,
@@ -2677,7 +2677,7 @@ export const products = [
     price: "155",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/btgqfuldyaydjowg74y7",
-    category: "steam-momo",
+    category: "momo",
     desc: "Minced soft Juicy boneless Chicken, Coriander & Celery leaf cooked in blend of herbs and spices comes with mouth-watering hot Schezwan flavour (5 Pcs). Served with Spicy Red Sauce and Green Chutney.",
     trending: true,
     outOfStock: true,
@@ -2690,7 +2690,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/uz2pj1eutouhjkexvjk1",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A heavenly melange of Hershey's cocoa with classic vanilla ice cream intertwined with our signature caramel ribbon. Get surprised with Hershey's milk chocolate kisses bits in each bite. Mesmerizing!",
     trending: false,
     outOfStock: true,
@@ -2703,7 +2703,7 @@ export const products = [
     price: "368",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/v0vuxtjnpkhp4kb4uf1u",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "2 Crispy Chicken + 1 King Fries +1Chocolate mousse cup",
     trending: true,
     outOfStock: false,
@@ -2729,7 +2729,7 @@ export const products = [
     price: "69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/c3wrlh0gw8d4yyd87esy",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Not quite like a plain Jane, this is a rich, dense vanilla ice cream that you'll recommend to friends. Seriously creamy, seriously tasty, a lot can happen over a Vanilla ice cream! (Contains milk)",
     trending: true,
     outOfStock: true,
@@ -2742,7 +2742,7 @@ export const products = [
     price: "180",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ppa3q1vlqwbtmxmb2j62",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A delicious warm brownie served with a scoop of indulgent Bavarian Chocolate ice cream topped with hot fudge",
     trending: false,
     outOfStock: false,
@@ -2755,7 +2755,7 @@ export const products = [
     price: "240",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ef9ehkepn5b3rrz5bygu",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "The delicious and chocolaty Hershey's Kisses Caramel Ice Cream scoop placed over a warm and gooey BR Chocolate fudge brownie. Drizzled with luscious chocolate fudge sauce and a creamy whipped cream swirl. Loaded with Hersheys milk chocolate kisses.",
     trending: true,
     outOfStock: true,
@@ -2768,7 +2768,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/m4jaszw0jblhsdjhbfig",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Delightful Tiramisu flavoured ice cream is swirled with a chocolate-coffee ribbon, and loaded with milk chocolate chips and a vanilla sponge cake crumble! Now it’s winter all year round.",
     trending: true,
     outOfStock: false,
@@ -2794,7 +2794,7 @@ export const products = [
     price: "115",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/x4wkqxeaxvokwmjrmui0",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "This ice cream roll cake is a classic combination of vanilla ice cream wrapped in chocolate sponge & covered with chocolate fudge and almonds",
     trending: true,
     outOfStock: false,
@@ -2834,7 +2834,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b5ophiuffdag9cftzndc",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Bestseller BR Dutch chocolate recipe made with exquisite Hersheys cocoa and married with our signature chocolate ribbon. Loaded with cookies and Hershey’s Milk Chocolate Kisses. Because there is nothing like too much chocolate!",
     trending: false,
     outOfStock: true,
@@ -2860,7 +2860,7 @@ export const products = [
     price: "310",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xfzkxegnjiy1rnvg21ay",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "The talk of the town ? a unique thickshake packed with flavour and crunch and made with creamy vanilla ice cream and Lotus Biscoff. Crowned with a whipped cream swirl and lotus biscuit crumble. A must try!",
     trending: true,
     outOfStock: true,
@@ -2873,7 +2873,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b5ophiuffdag9cftzndc",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Bestseller BR Dutch chocolate recipe made with exquisite Hershey’s cocoa and married with our signature chocolate ribbon. Loaded with cookies and Hershey’s Milk Chocolate Kisses. Because there is nothing like too much chocolate!",
     trending: true,
     outOfStock: false,
@@ -2899,7 +2899,7 @@ export const products = [
     price: "139",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hvwp4rnzvonendyonlju",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our best-selling burger with crispy chicken Double Patty, Cheese slice, fresh onion and our signature sauce.",
     trending: true,
     outOfStock: true,
@@ -2925,7 +2925,7 @@ export const products = [
     price: "309.32",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/epoosrcuq0ihbpdxwupu",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Your childhood favourite now in a no added sugar version. Sublime strawberry flavoured ice cream laden with natural strawberry puree, as well as Strawberry fruit chunks.",
     trending: false,
     outOfStock: true,
@@ -2951,7 +2951,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zrae2uos1xml7ywoyfdq",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Sweet and juicy raspberries swirled into a summer fresh sorbet. A refreshing treat to welcome this summer!",
     trending: false,
     outOfStock: true,
@@ -2990,7 +2990,7 @@ export const products = [
     price: "69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/r7oagv1wa1xx3br6f4gy",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Rich natural Chikoo ice cream with real Chikoo pieces (Contains Milk)",
     trending: false,
     outOfStock: true,
@@ -3003,7 +3003,7 @@ export const products = [
     price: "97",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/t3mfesjwkkdim6lrxbfb",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A match made in heaven. Luscious assortment of berries swirled with rich chocolate mixture. Try our latest delicacy and fall in love with it.",
     trending: true,
     outOfStock: true,
@@ -3068,7 +3068,7 @@ export const products = [
     price: "55",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/hghmixgqwyacf1zlyvo0",
-    category: "burgers-&-wraps",
+    category: "burger-&-wraps",
     desc: "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce.",
     trending: true,
     outOfStock: false,
@@ -3094,7 +3094,7 @@ export const products = [
     price: "259",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nshhasuz78l0gyfrjvvj",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "This indulgent chocolate waffle is drizzled with chocolate syrup and butterscotch, decorated with Hershey’s Kisses, and served with a scoop of Hershey’s Kisses Caramel ice cream, topped with wheat crispies, and whipped cream. The cherry on top? There’s a cherry on top",
     trending: false,
     outOfStock: true,
@@ -3134,7 +3134,7 @@ export const products = [
     price: "219",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/gavlmj9y7wo9fubryx19",
-    category: "burger-king",
+    category: "burger-&-wraps",
     desc: "Chicken Makhani Burst + Lite Whopper Jr Chicken",
     trending: true,
     outOfStock: false,
@@ -3147,7 +3147,7 @@ export const products = [
     price: "69",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ijxuz1kyozfkyaujprqi",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Litchi ice cream with fresh Litchi pieces makes for a lush, delicious treat! (Contains Milk)",
     trending: true,
     outOfStock: false,
@@ -3160,7 +3160,7 @@ export const products = [
     price: "566.95",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vsj3a87967mkbqeh3eav",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "A beautiful biscuit crumble base layered with delicious cheesecake ice cream. Add to it another layer of fluffy vanilla sponge cake and some more cheesecake ice cream. Adorned with exotic blueberries and whipped cream. Get transported to NY!",
     trending: true,
     outOfStock: true,
@@ -3173,7 +3173,7 @@ export const products = [
     price: "79",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/npbxxhsc1mai0ecxbv5p",
-    category: "burgers-momo",
+    category: "momo",
     desc: "Burger filled with crispy fried Momo and topped with red and green sauce and mayonnaise.",
     trending: true,
     outOfStock: true,
@@ -3212,7 +3212,7 @@ export const products = [
     price: "349",
     productUrl:
       "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pczpdhy5kb6zxb8o9gwd",
-    category: "sweet-tooth",
+    category: "ice-cream",
     desc: "Sweet and juicy raspberries swirled into a summer fresh sorbet. A refreshing treat to welcome this summer!",
     trending: true,
     outOfStock: true,

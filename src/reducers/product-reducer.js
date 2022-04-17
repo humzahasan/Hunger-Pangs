@@ -4,33 +4,13 @@ const ProductReducer = (state, action) => {
       return {
         ...state,
         products: action.payload.products,
-        filteredProducts: action.payload.products,
-      };
-    case "HIGH_TO_LOW":
-      return {
-        ...state,
-        products: state.products.sort((a, b) => b.price - a.price),
-      };
-    case "LOW_To_HIGH":
-      return {
-        ...state,
-        products: state.products.sort((a, b) => a.price - b.price),
-      };
-    case "FAST_DELIVERY":
-      return {
-        ...state,
-        products: state.products.filter(
-          (item) => item.tenMinutesDelivery === true
-        ),
-      };
 
-    case "STANDARD_DELIVERY":
-      return {
-        ...state,
-        products: state.products.filter(
-          (item) => item.tenMinutesDelivery === false
-        ),
+        finalProductList: action.payload.products,
       };
+    case "UPDATE_DATA":
+      return { ...state, ...action.payload };
+    case "CLEAR_ALL":
+      return { ...state, finalProductList: state.products };
 
     default:
       return state;

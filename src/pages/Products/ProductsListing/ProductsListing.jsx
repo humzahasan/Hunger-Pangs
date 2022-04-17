@@ -7,20 +7,19 @@ import { useAuth, useCart, useProducts, useWishlist } from "../../../context";
 
 const ProductsListing = () => {
   const {
-    state: { products },
+    state: { finalProductList },
   } = useProducts();
 
   const { addToWishlist } = useWishlist();
   const { addToCart } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
-
   return (
     <div className="grid-item ">
-      <h1>Products</h1>
+      <h1>Products - ({finalProductList?.length} items)</h1>
       <div className="product-listing">
-        {products &&
-          products.map((item) => (
+        {finalProductList &&
+          finalProductList.map((item) => (
             <Card
               key={item.id}
               title={item.name}

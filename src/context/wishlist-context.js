@@ -34,7 +34,6 @@ const WishlistProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
-      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
@@ -54,7 +53,6 @@ const WishlistProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
-      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };

@@ -20,8 +20,6 @@ const Navbar = () => {
     localStorage.removeItem("user");
     clearCart();
     clearWishlist();
-
-    // navigate("/");
   };
   return (
     <>
