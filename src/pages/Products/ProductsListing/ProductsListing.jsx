@@ -2,9 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import FavIcon from "../../../assets/heart.svg";
 import { Card } from "../../../components";
-
+import "./ProductsListing.css";
 import { useAuth, useCart, useProducts, useWishlist } from "../../../context";
-
+import NotFound from "../../../assets/notfound.svg";
 const ProductsListing = () => {
   const {
     state: { finalProductList },
@@ -18,7 +18,7 @@ const ProductsListing = () => {
     <div className="grid-item ">
       <h1>Products - ({finalProductList?.length} items)</h1>
       <div className="product-listing">
-        {finalProductList &&
+        {finalProductList.length > 0 ? (
           finalProductList.map((item) => (
             <Card
               key={item.id}
@@ -45,7 +45,13 @@ const ProductsListing = () => {
                   : navigate("/login")
               }
             />
-          ))}
+          ))
+        ) : (
+          <div className="product-notfound">
+            <h2 className="md-title">No Products to show!</h2>
+            <img src={NotFound} alt="Not found" style={{ maxWidth: "20rem" }} />
+          </div>
+        )}
       </div>
     </div>
   );
