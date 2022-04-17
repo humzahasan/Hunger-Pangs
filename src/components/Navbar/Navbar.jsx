@@ -5,23 +5,23 @@ import HamburgerMenu from "../../assets/FaSolidBars.svg";
 import Logo from "../../assets/logo.png";
 import CartIcon from "../../assets/shopping-cart.svg";
 import WishlistIcon from "../../assets/heart.svg";
-
-import { useWishlist } from "../../context/wishlist-context";
-import { useCart } from "../../context/cart-context";
-import { useAuth } from "../../context/auth.context";
+import { useAuth, useCart, useWishlist } from "../../context";
 
 const Navbar = () => {
-  const { state: wishlistState } = useWishlist();
-  const { state: cartState } = useCart();
-  const { user, setUser } = useAuth();
+  const { getToken } = useAuth();
+  const { state: wishlistState, clearWishlist } = useWishlist();
+  const { state: cartState, clearCart } = useCart();
 
-  const wishlistLength = wishlistState.wishlist.length;
-  const cartLength = cartState.cart.length;
+  let wishlistLength = wishlistState.wishlist.length;
+  let cartLength = cartState.cart.length;
 
   const logoutHandler = () => {
     console.info("User Logged out!");
-    localStorage.removeItem("token");
-    setUser(null);
+    localStorage.removeItem("user");
+    clearCart();
+    clearWishlist();
+
+    // navigate("/");
   };
   return (
     <>
@@ -45,18 +45,19 @@ const Navbar = () => {
                 />
               </li>
               <li className="navbar-item">
-                {!user ? (
+                {getToken() ? (
+                  <button className="btn btn-primary" onClick={logoutHandler}>
+                    <p className="nav-button">Logout</p>
+                  </button>
+                ) : (
                   <button className="btn btn-primary">
                     <Link className="nav-button" to="/login">
                       Login
                     </Link>
                   </button>
-                ) : (
-                  <button className="btn btn-primary" onClick={logoutHandler}>
-                    <p className="nav-button">Logout</p>
-                  </button>
                 )}
               </li>
+
               <li className="navbar-item">
                 <div className="badge">
                   <Link to="/cart">

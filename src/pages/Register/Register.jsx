@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { Navbar } from "../../components";
 import { useAuth } from "../../context";
 
@@ -20,11 +21,14 @@ const Register = () => {
         email,
         password,
       });
-      localStorage.setItem("token", response.data.encodedToken);
-      setUser(response.data);
-      navigate("/");
-    } catch (error) {
-      console.log(error);
+
+      if (response.status === 201) {
+        localStorage.setItem("user", JSON.stringify(response.data));
+        setUser(response.data.createdUser);
+        navigate("/");
+      }
+    } catch (err) {
+      toast.error(err.response.data.errors[0]);
     }
   };
 

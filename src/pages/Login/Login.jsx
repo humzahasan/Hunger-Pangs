@@ -1,6 +1,7 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { Navbar } from "../../components";
 import { useAuth } from "../../context";
 
@@ -8,15 +9,8 @@ const Login = () => {
   const [email, setEmail] = useState("foody@gmail.com");
   const [password, setPassword] = useState("ilovefood");
 
-  const { setUser } = useAuth();
+  const { setUser, setToken } = useAuth();
   const navigate = useNavigate();
-  const token = localStorage.getItem("token");
-
-  console.log(token);
-
-  useEffect(() => {
-    token && navigate("/");
-  });
 
   const loginHandler = async (event) => {
     event.preventDefault();
@@ -25,11 +19,15 @@ const Login = () => {
         email,
         password,
       });
-      localStorage.setItem("token", response.data.encodedToken);
-      setUser(response.data);
-      navigate("/");
+
+      if (response.status === 200 && response.data.encodedToken) {
+        setToken(response.data);
+        setUser(response.data.foundUser);
+        navigate("/");
+      }
     } catch (error) {
-      console.log(error);
+      console.log(error.response);
+      toast.warning("Something went wrong. Please try again!");
     }
   };
   return (
