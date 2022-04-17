@@ -1,6 +1,8 @@
 import React from "react";
 import "./Card.css";
 import CloseBtn from "../../assets/close.svg";
+import Fast from "../../assets/fast.svg";
+import Star from "../../assets/star.svg";
 
 const Card = ({
   orientation = "vertical",
@@ -25,6 +27,8 @@ const Card = ({
   imageOverlay,
   outOfStock,
   badgeAction,
+  tenMinutesDelivery,
+  rating,
 }) => {
   const count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -105,6 +109,28 @@ const Card = ({
           )}
         </div>
       )}
+      <div className="card-additional">
+        {rating >= 1 && (
+          <div className="card-rating" title={`Rated ${rating} out of 5`}>
+            <>
+              <p>{rating}</p>
+              <img src={Star} alt="rating" />
+            </>
+          </div>
+        )}
+        {rating === 0 && (
+          <div className="card-rating" title={`Rated ${rating} out of 5`}>
+            <>
+              <p>No Rating</p>
+            </>
+          </div>
+        )}
+        {!outOfStock && tenMinutesDelivery && (
+          <div className="card-delivery" title="Delivery Under 10 minutes">
+            <img src={Fast} alt="fast delivery" />
+          </div>
+        )}
+      </div>
 
       {(addToCart ||
         moveToWishlist ||

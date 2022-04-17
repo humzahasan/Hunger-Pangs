@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Cart.css";
 import { Card, Navbar } from "../../components/index";
-import { useCart } from "../../context/cart-context";
-import { useWishlist } from "../../context/wishlist-context";
+import { useAuth, useCart, useWishlist } from "../../context";
+
 const Cart = () => {
+  const navigate = useNavigate();
+
   const {
     state: { cart },
     removeFromCart,
@@ -11,9 +14,9 @@ const Cart = () => {
   } = useCart();
 
   const { addToWishlist } = useWishlist();
-
   const [cartValue, setCartValue] = useState(0);
   const [cartQuantity, setCartQuantity] = useState(0);
+  const { getToken } = useAuth();
 
   const getCartValue = (cart) => {
     return cart.reduce((total, item) => total + item.price * item.quantity, 0);
@@ -24,8 +27,13 @@ const Cart = () => {
   };
 
   useEffect(() => {
-    setCartValue(getCartValue(cart));
-    setCartQuantity(getCartQuantity(cart));
+    if (getToken()) {
+      setCartValue(getCartValue(cart));
+      setCartQuantity(getCartQuantity(cart));
+    } else {
+      navigate("/login");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cart]);
 
   return (

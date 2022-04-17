@@ -1,14 +1,12 @@
 import React from "react";
 import "./Wishlist.css";
 import { Card, Navbar } from "../../components/index";
-import { useWishlist } from "../../context/wishlist-context";
-import { useCart } from "../../context/cart-context";
+import { useCart, useWishlist } from "../../context";
 const Wishlist = () => {
   const {
     state: { wishlist },
     removeFromWishlist,
   } = useWishlist();
-  console.log(wishlist);
   const { addToCart } = useCart();
 
   return (
