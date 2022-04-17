@@ -24,7 +24,6 @@ const CartProvider = ({ children }) => {
       dispatch({ type: "SET_CART", payload: res.data.cart });
     } catch (error) {
       toast.warning("Something went wrong. Please try again!");
-      console.log(error.response);
     }
   };
 
@@ -47,7 +46,6 @@ const CartProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
-      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
@@ -67,7 +65,6 @@ const CartProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
-      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
@@ -101,7 +98,6 @@ const CartProvider = ({ children }) => {
         toast.warning("Something went wrong. Please try again!");
       }
     } catch (error) {
-      console.log(error.response);
       toast.error("Oh no! It's not you, it's me.");
     }
   };
